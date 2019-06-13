@@ -1,0 +1,11 @@
+CFLAGS=-ggdb
+
+KASRC = $(wildcard *.c)
+KAOBJ=$(KASRC:.c=.o)
+
+all: kabag.a
+
+kabag.a: ${KAOBJ}
+	rm -f kabag.a
+	ar cq kabag.a ${KAOBJ}
+	ranlib kabag.a

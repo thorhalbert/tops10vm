@@ -1,0 +1,31 @@
+Jan-2001 - Started project 
+
+2-Feb-2001 - Finished op_halfwords, started op_bitops
+4-Feb-2001 - Wrote various ADDs, MULs, etc - enough operations to start playing
+5-Feb-2001 - Create Core space, Added *.SAV.ASC.bz2 loader
+6-Feb-2001 - Added processor logic - got it to run the DAKAA KLAD diagnostic
+	(in raw mode -- started directly at tests - dies when attempting
+	to loop and print messages) - fixed a few bugs to get it to run
+12-Feb-2001 - Passed the DAKAD diagnostic (history lacking here, passed
+	DAKAB and DAKAC in the intervening time).  Added ADDB, XCT, JFCL
+	and JRSTF amoung various fixes to others.  Extensive support for
+	processor status word and proper flag-setting behavior of opcodes.
+15-Feb-2001 - Passed the DAKAE diagnostic - began setting up infrastructure
+	for doing I/O (pre_ks_io.c).  Passed DAKAF without modifications.
+13-Mar-2001 - Broke out the KA processor handling and I/O devices into 
+	the ka_sys directory.  Handle I/O by normal mechanism.  Worked on
+	USER/EXEC mode, and IOT (User IO) mode.  Embrionic relocation
+	and protection register for KA.  Now handles the LIGHTS IO (DATAO PI)
+	instruction.
+01-Mar-2002 - Filed project away for a year after the announcement of the
+	simh simulators, and then the later klh-10 emulators (both fine
+	programs).   Decided in this timeframe for a new idea for the
+	project, and that was to emulate the base operating system instead.
+	Added EXE file format, massive reorganization.  Added command line
+	parser, PUSH* ops, IDB* ops, ROT*, LSH* ops,  several initial
+	CALLIs,  debug operations, virtual memory/paging via unix.
+02-Apr-2002 - Passed DAKAA through DAKAF after reorg in USER mode.  Starting
+	back through diags and base functionality.   Got the stack functions
+	working and got DAKAG to run.  Skipping DAKAH, since it is an EXEC
+	MODE ONLY type program.
+

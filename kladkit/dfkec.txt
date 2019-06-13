@@ -1,0 +1,492 @@
+;DFKEC
+
+
+
+
+
+
+
+                                IDENTIFICATION
+                                --------------
+
+        PRODUCT CODE:           AH-E568B-DD
+
+        DIAGNOSTIC CODE:        DFKEC
+
+        PRODUCT NAME:           DFKECB0 KL10 PXCT DIAGNOSTIC
+
+        VERSION:                0.2
+
+        DATE RELEASED:		SEPTEMBER 1981
+
+        MAINTAINED BY:          36-BIT DIAGNOSTIC ENGINEERING
+
+        AUTHOR:                 JOHN R. KIRCHOFF
+                                EDWARD G. PRENTICE
+
+                        COPYRIGHT (C) 1978, 1981
+
+                DIGITAL EQUIPMENT CORPORATION, MAYNARD, MASS.
+
+        THIS SOFTWARE IS FURNISHED UNDER A LICENSE FOR  USE  ONLY  ON  A
+        SINGLE COMPUTER SYSTEM AND MAY BE COPIED ONLY WITH THE INCLUSION
+        OF THE ABOVE COPYRIGHT NOTICE.   THIS  SOFTWARE,  OR  ANY  OTHER
+        COPIES  THEREOF, MAY NOT BE PROVIDED OR OTHERWISE MADE AVAILABLE
+        TO ANY OTHER PERSON EXCEPT FOR USE ON SUCH SYSTEM AND TO ONE WHO
+        AGREES  TO  THESE  LICENSE TERMS.  TITLE TO AND OWNERSHIP OF THE
+        SOFTWARE  SHALL  AT   ALL  TIMES  REMAIN  IN  DIGITAL  EQUIPMENT
+        CORPORATION.
+
+        THE INFORMATION IN THIS DOCUMENT IS SUBJECT  TO  CHANGE  WITHOUT
+        NOTICE  AND  SHOULD  NOT BE CONSTRUED AS A COMMITMENT BY DIGITAL
+        EQUIPMENT CORPORATION.
+
+        DIGITAL EQUIPMENT CORPORATION ASSUMES NO  RESPONSIBILITY FOR THE
+        USE  OR  RELIABILITY  OF  ITS SOFTWARE IN EQUIPMENT WHICH IS NOT
+        SUPPLIED BY DIGITAL EQUIPMENT CORPORATION.
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 1
+
+			TABLE OF CONTENTS
+			-----------------
+
+1.0	ABSTRACT
+
+2.0	REQUIREMENTS
+
+2.1	EQUIPMENT
+
+2.2	STORAGE
+
+2.3	PRELIMINARY PROGRAMS
+
+3.0	PROGRAM PROCEDURES
+
+3.1	LOADING PROCEDURE
+
+3.2	STARTING PROCEDURE
+
+3.3	OPERATING PROCEDURE
+
+4.0	DATA SWITCH FUNCTIONS
+
+5.0	TEST DESCRIPTIONS
+
+6.0	ERRORS
+
+7.0	ITERATION COUNTER
+
+8.0	OPERATIONAL VARIATIONS
+
+9.0	MISCELLANEOUS
+
+10.0	HISTORY FILE
+
+11.0	DOCUMENTATION FILE
+
+12.0	LISTING
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 2
+
+1.0	ABSTRACT
+
+     This diagnostic intends to do a functional  test  of  a  specific
+instruction  on  the  KL10, that being the PXCT instruction.  The PXCT
+instruction is not a  useful  instruction  in  itself,  but  rather  a
+convenient  way  to allow some other instructions to be executed under
+different conditions.  'PXCT' stands for previous-context-execute, and
+allows  a  program to execute those other instructions as if they were
+being executed in the previous context.  Previous context  is  defined
+by  at  least the following fields:  a bit to say whether the previous
+context was user or exec, 12 bits to say what section the program  was
+in, and 3 bits to define what ac block was being used by the program.
+
+     The operation of the  PXCT  instruction  takes  a  lot  of  other
+conditions  into  account  also;   the section number that the PXCT is
+residing in, the addressing mode used by the PXCT'd  instruction,  the
+section number that the PXCT'd instruction is in, and the section that
+the effective address in the PXCT'd instruction is in.
+
+     Due to the fact that  the  PXCT  is  not  really  an  instruction
+itself, but rather a variation of the other instructions, the code for
+the PXCT is written in different places  for  different  instructions.
+Thus  a  simple test that tests PXCT of move will not be sufficient to
+test PXCT.
+
+     It  is  not  the  goal  of  this  diagnostic  to  test  all   the
+combinations  possible,  but  rather  to  estimate  the most important
+combinations and test those.
+
+     The following instructions are tested:  MOVE, MOVEM,  BLT,  XBLT,
+PUSH, POP, LDB and DPB.
+
+     The net result of all this is that the PXCT test has grown to  be
+very  complicated,  (much  more so than expected), and in an effort to
+test lots of variations, there are many instructions  that  won't  get
+tested.
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 3
+
+     The program is setup to test many cases for each instruction, and
+uses the case number to specify various parameters.  All page mappings
+are done separately for  each  case,  to  insure  that  each  case  is
+independent  of  previous  cases.   A common routine is used to do the
+actual PXCT instruction.  The routine therefore provides a stable base
+to  insure  that  each test is performed in the same environment.  The
+effective address calculation (except for  XBLT)  is  performed  by  a
+routine  to  simulate  the result that is expected.  That page is then
+mapped in by the program, so that no page fail will result.   In  case
+the  hardware  does  cause  a  page  fail,  it is easy to diagnose the
+failure, because the page fail address is stored by the hardware,  and
+can  be  compared  to  the  expected  address to identify the problem.
+After insuring that no illegal page fail has occured, the  results  of
+the  instruction  are  compared  to  what  was expected, and again any
+errors are reported.
+
+     A few checks on the program itself have been  provided,  to  stop
+the  program  if it gets into an unhealthy state.  Usually these fatal
+errors will type an error message with the pc of the error,  and  will
+go to DDT.
+
+     The following are some things that could be tested  by  a  future
+version of this diagnostic.
+
+     1.  PXCT of more instructions.
+
+     2.  Other addressing modes including illegal ones.  For instance,
+         hitting  a global indirect word with bits 0-1 both set should
+         cause a page fail.  Setting a section number to  7777  should
+         also cause a pagefail.  Also, global indexing needs testing.
+
+     3.  More wraparound cases should be tested.
+
+     4.  Test PXCT for different version  of  the  microcode.   (i.e.,
+         KL-paging model A, KI-paging model A/B.
+
+     5.  Add test where effective address calculation  results  in  ac
+         reference.
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 4
+
+2.0	REQUIREMENTS
+
+2.1	EQUIPMENT
+
+	A DECSYSTEM KL10 EQUIPPED WITH A MINIMUM OF 32K OF MEMORY
+
+	CONSOLE PROCESSOR
+	CONSOLE TERMINAL
+	LOAD DEVICE
+
+2.2	STORAGE
+
+	THE PROGRAM RUNS WITHIN 32K OF MEMORY.
+
+2.3	PRELIMINARY PROGRAMS
+
+	PREVIOUS PROCESSOR DIAGNOSTICS
+
+3.0	PROGRAM PROCEDURES
+
+3.1	LOADING PROCEDURE
+
+	THIS DIAGNOSTIC REQUIRES THAT THE DECSYSTEM KL10 SUBROUTINE
+	PROGRAM BE RESIDENT IN THE DECSYSTEM KL10.
+
+	FOLLOW THE APPROPRIATE DIAGNOSTIC LOADING PROCEDURES.
+
+3.2	STARTING PROCEDURE
+
+	A.  SELECT OPERATIONAL CONSOLE DATA SWITCH SETTINGS (REFER TO
+	    4.0 DATA SWITCH FUNCTIONS).
+
+	B.  EXEC MODE
+
+	    STAND-ALONE STARTING ADDRESS IS 30000.
+
+3.3	OPERATING PROCEDURE
+
+	A.  ERROR INFORMATION MAY BE OBTAINED QUICKLY BY PRINTING 
+	    ERRORS ON THE LINE PRINTER.
+
+	B.  IN THE EVENT OF A PRINT ROUTINE FAILURE THE 'NOPNT' SWITCH
+	    AND THE 'ERSTOP' SWITCH MAY BE SET TO INHIBIT PRINTOUT 
+	    BUT HALT THE PROGRAM POINTING TO THE ERROR.
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 5
+
+4.0	DATA SWITCH FUNCTIONS
+
+	SWITCH		STATE	FUNCTION
+	------		-----	--------
+
+	0    ABORT	0	NORMAL OPERATION
+			1	ABORT AT END OF PASS
+
+	1    RSTART		NOT USED
+
+	2    TOTALS		NOT USED
+
+	3    NOPNT	0	NORMAL TYPEOUT
+			1	INHIBIT ALL PRINT/TYPEOUT
+				(EXCEPT FORCED)
+
+	4    PNTLPT	0	NORMAL OUTPUT TO TTY
+			1	PRINT ALL DATA ON LPT
+
+	5    DING	0	NO FUNCTION
+			1	RING TTY BELL ON ERROR
+
+	6    LOOPER	0	PROCEED TO NEXT TEST
+			1	ENTER LOOP ON TEST ERROR
+
+	7    ERSTOP	0	NO FUNCTION
+			1	HALT ON TEST ERROR
+
+	8    PALERS	0	PRINT ONLY FIRST ERROR WHEN LOOPING
+			1	PRINT ALL ERRORS, EVEN IF SAME ERROR
+
+	9    RELIAB	0	FAST CYCLE (1 PASS)
+			1	REPETITION COUNT OF 10
+
+	10   TXTINH	0	PRINT FULL ERROR MESSAGES.
+			1	INHIBIT COMMENT PORTION OF 
+				ERROR MESSAGES.
+
+	11   INHPAG	0	ALLOW PAGING AND TRAP ENABLE
+			1	INHIBIT PAGING AND TRAPPING
+
+	12   MODDVC		NOT USED
+
+	13   INHCSH	0	ALLOW CACHE USE
+			1	INHIBIT CACHE
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 6
+
+5.0	TEST DESCRIPTION
+
+     Ordinarily an instruction in a user program is performed entirely
+in  user address spece, and an instruction in the executive program is
+performed entirely in executive  address  space.   But  to  facilitate
+communication  between  Monitor  and  users, the executive can execute
+instructions in which selected  references  cross  over  the  boundary
+between   user   and   executive  address  spaces.   This  feature  is
+implemented by the previous context  execute,  or  PXCT,  instruction.
+The  mnemonic  PXCT  is  for  convenience  only  and is used simply to
+indicate an XCT with nonzero A bits (instruction  accumulator  field).
+A  PXCT  is  an  XCT.   Although the PXCT is given by a program in the
+current context, some of the  references  made  by  the  the  executed
+instruction  can be in the previous context.  A PXCT can be given only
+in executive mode, but the  previous  context  may  be  the  user,  as
+following a call to the Monitor by the user.  The previous context can
+however be the executive, to allow communication between one level  of
+the  executive  program and another, as when the monitor gives an MUUO
+to itself.
+
+     The only difference between an instruction executed by a PXCT and
+an instruction performed in normal circumstances is in the way certain
+of its memory and index register references are made.  To  work  as  a
+PXCT,  an  XCT  must be given in executive mode, and the bits in its A
+field (9-12) must not all be 0 (in user mode A is ignored).  But there
+is  otherwise  no  difference  in the way the XCT itself is performed:
+everything in the PXCT is done in the current (executive) context, and
+the  instruction  to  be executed by the XCT is fetched in the current
+context.   Moreever  in  the  executed  instruction,  all  accumulator
+references (specified by bits 9-12 of the instruction word) are in the
+current  context.   If  the  instruction  makes  no   memory   operand
+references, as in a shift or immediate mode instruction, and it has no
+indexing or indirection (i.e., the instruction word gives E directly),
+then  its  execution differs in no way from the normal case.  The only
+difference is in memory and index references.
+
+     The previous context is specified by four guantities.   Following
+a  call  by  an  MUUO,  the  section  in which the calling program was
+running Iits PC section) and the fast  memory  block  assigned  to  it
+appear  as  the  previous  context section and current AC block in the
+word read by  a  DATAI  PAG,.   For  the  called  program,  these  two
+quantities  can  then  be  assigned as the previous context by a DATAO
+PAG,.  The current AC block of the calling program also appears in the
+process  context  word  supplied  by  the MUUO.  Various levels of the
+Monitor may all use fast memory block 0;  or a separate block  may  be
+assigned  to that part of the Monitor that uses PXCTs in handling MUUO
+calls from other parts of the Monitor.
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 7
+
+     Just as the current mode is indicated  by  the  USER  and  PUBLIC
+flags,  the mode in which the calling program was running is indicated
+by PREVIOUS CONTEXT USER and PREVIOUS CONTEXT PUBLIC.  At a call these
+flags  may  be set up automatically or they may be set up by a flag-PC
+doubleword or a PC word.  Note that  the  restrictions  on  references
+made  in  the previous context are those of the previous context - not
+those of the context in which the PXCT is  given  -  with  the  single
+exception  that  if  the  current program is running in section 0, the
+previous context is also limited to section 0.
+
+     Which references in the executed  instruction  are  made  in  the
+previous  context  is  determined  by  1s in the A portion of the PXCT
+instruction word as follows:
+
+Bit     References Made in Previous Context if Bit is 1
+
+9       Effective address calculation of instruction,  including  both
+        instruction words in EXTEND (index registers, address words by
+        indirection);  also EXTEND effective  address  calculation  of
+        source  pointer  if  bit 11 is 1 and of destination pointer if
+        bit 12 is 1.
+
+10      Memory operands specified by E, whether fetch  or  store  (for
+        example;  PUSH source, POP or BLT destination);  byte pointer;
+        second instruction word in EXTEND.
+
+11      Effective address calculation  of  byte  pointer;   source  in
+        EXTEND;    effective  address  calculation  of  EXTEND  source
+        pointer if bit 9 is 1.
+
+12      Byte data;  stack in PUSH or POP;  source in BLT;  destination
+        in   EXTEND;    effective   address   calculation   of  EXTEND
+        destination pointer if bit 9 is 1.
+
+     Previous context referencing is useful  and  reasonable  in  some
+instructions  but  inapplicable  to  others.   There is no trap of any
+kind, and the effect of using the feature with an instruction to which
+it does not apply is simply undefined.
+
+        Applicable              Inapplicable
+
+        Move, XMOVEI            LUUO, MUUO
+        EXCH, BLT, XBLT         AOBJN, AOBJP
+        Half word, XHLLI        JUMP, AOJ, SOJ
+        Arithmetic              JSR, JSP, JSA, JRA, JRST
+        Boolean                 PUSHJ, POPJ
+        Double move             XCT, PXCT
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 8
+
+        CAI, CAM                Shift-rotate
+        SKIP, AOS, SOS          I/O
+        Logical test
+        PUSH, POP, ADJSP
+        Byte
+        EXTEND
+        MAP
+
+     Note that no jumps can use previous  context  referencing.   Even
+among the instructions to which such referencing is applicable, only a
+limited number of the sixteen possible bit combinations is  useful  or
+meaningful.   Doing  an  effective address calculation in the previous
+context  (selected  by  bit  9  or  11)  makes  sense  only   if   the
+corresponding data access is also in the previous context (as selected
+by bit 10 or 12 except 11 or 12 for EXTEND).
+
+Only these combinations are permitted.
+
+Instructions    9  10  11  12    References in Previous Context
+
+General         0   1   0   0    Data
+                1   1   0   0    E, data
+
+Immediate       1   0   0   0    E
+
+BLT             0   0   0   1    Source
+                0   1   0   0    Destination
+                0   1   0   1    Source, destination
+                1   1   0   0    E, destination
+                1   1   0   1    E, source, destination
+
+XBLT            0   0   1   0    Source
+                0   0   0   1    Destination
+                0   0   1   1    Source, destination
+
+Stack           0   0   0   1    Stack
+                0   1   0   1    Memory data
+                0   1   0   1    Memory data, stack
+                1   1   0   0    E, memory data
+                1   1   0   1    E, memory data, stack
+
+Byte            0   0   0   1    Data
+                0   0   1   1    Pointer E, data
+                0   1   1   1    Pointer, pointer E, data
+                1   1   1   1    E, pointer, pointer E, data
+
+EXTEND          0   0   0   1    Destination
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 9
+
+(other than     1   0   0   1    E(=Y), destination pointer, destination
+XBLT)           0   0   1   0    Source
+                1   0   1   0    E(=Y), source pointer, source
+                0   0   1   1    Source, destination
+                1   0   1   1    E(=Y), pointers, source, destination
+
+Execution of a BLT by a PXCT is limited to these three cases:
+
+     1.  Where all operations, regardless of context, are  in  section
+         0.
+
+     2.  Where the previous context fast memory block is  being  saved
+         in  or  restored  from  the current context, which may be any
+         section.   (But  remember  that  regardless  of  context,   a
+         BLT-given  in-section address in the range 0-17 always refers
+         to fast memory.  Hence an AC block can never be saved  in  or
+         restored  from  the  first  sixteen  storage locations in any
+         section.)
+
+     3.  Where all operations are confined to a single section in  the
+         previous  context,  as would be the case when clearing a user
+         page.
+
+
+In all other circumstances, XBLT must be used instead.
+
+DFKEC - KL10 PXCT DIAGNOSTIC					Page 10
+
+6.0	ERRORS
+
+	ERRORS ARE PRINTED ON THE TTY OR LINE PRINTER. THERE ARE
+	TWO TYPES OF PROGRAM ERROR PRINTOUT.
+
+	THE FIRST TYPE IS THE STANDARD SUBROUTINE PACKAGE ERROR MACRO
+	PRINTOUT WHICH CONTAINS THE TEST TITLE, THE PC OF THE FAILURE,
+	TEST DESCRIPTION AND THE CORRECT DATA, ACTUAL DATA, AND THE
+	DISCREPANCY BETWEEN THE TWO.
+
+	THE SECOND TYPE IS IMPLEMENTED COMPLETELY IN THE PROGRAM.
+	THIS TYPE OF ERROR REPORT IS USED TO DISPLAY THE CURRENT TEST
+	CONDITIONS.  AFTER DISPLAYING COMMON PARAMETERS A DISPATCH
+	IS MADE TO SHOW INDIVIDUAL PARAMETERS.
+
+7.0	ITERATION COUNTER
+
+	THE ITERATION COUNT OF THE PROGRAM IS PRINTED BY THE
+	CONSOLE PROCESSOR.
+
+8.0	OPERATIONAL VARIATIONS
+
+	A.  DIAGNOSTIC MONITOR
+
+	    THE PROGRAM IS USABLE WITH THE DIAGNOSTIC MONITOR TO PROVIDE
+	    RELIABILITY AND ACCEPTANCE TESTS FOR THE EXTENDED
+	    INSTRUCTION SET MICRO-CODE. THE FOLLOWING INFORMATION MAY
+	    BE USEFUL:
+
+	    1.	THE DIAGNOSTIC MONITOR TRANSFERS CONTROL TO THE PROGRAM
+		AND STARTS IT AT LOCATION 30002.
+
+	    2.	MONCTL - LOCATION 30043 IS USED AS THE DIAGNOSTIC MONITOR
+		CONTROL WORD.
+			LH = 0, STAND-ALONE OPERATION
+			    -1, RUNNING UNDER DIAGNOSTIC MONITOR
+
+			RH = RIGHT HALF OF CONSOLE SWITCHES IF UNDER
+			     DIAGNOSTIC MONITOR CONTROL.
+
+
+9.0	MISCELLANEOUS
+
+10.0	HISTORY FILE
+
+11.0	DOCUMENTATION FILE
+
+12.0	LISTING
+

@@ -1,0 +1,40 @@
+Propsective command switches:
+
+--processor (-p)	Processor VM for this processor type
+	KA
+	KI
+	KL
+	XKL
+
+--core (-c)		Launch program with this much core (minimum)
+	lo,hi
+
+--os (-o)		Emulator this operating system (should auto)
+	tops10
+	tops20
+	its
+
+--osver (-v)		Whichever version (may not be implemented)
+	603 703		
+
+
+--watch (-w)		Set watch bits (tops-10 watches)
+	[no]day		Daytime at start
+	run		Runtime
+	wait		Waittime
+	reads		Read operations
+	writes		Write operations
+	versions	Versions (and program names)
+	tape		Tape I/O operations
+
+--debug (-d)
+	trace		show instruction trace
+	tracew		show wide instruction trace (acs)
+
+
+
+
+	file.exe
+	file.sav
+	file.mic
+

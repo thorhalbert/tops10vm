@@ -1,0 +1,53 @@
+; comment
+// comment
+
+
+LABEL:
+
+	operator ac, @ addr (ind)
+
+	VALUE symbol = value
+
+	OPDEF symbol = operator ac, @ addr (ind)
+
+	INCLUDE file
+
+	LOC value		// Set the current .
+
+	ASCIZ
+	SIXBIT
+	XWD
+
+	{  }  Syntax for grouping and making code structured
+
+	_top/x_    // Address of instruction invoking the
+			brace - /x is multiple level 1 is current
+			2 would be to break up 2 levels
+	_end/x_	   // Same as top but the same as statement
+			after -- also same as _top_ + 1
+
+	__label:   // Local label only meaningful at scope or
+			below - reusable in other blocks
+
+	JRST {        			// _top_
+		JRST _top_ -2
+		JRST _end_ +2
+	}
+	next statement			// _end_
+
+	BUILDBLOCKS      // Make compiler build all outstanding
+				blocks here
+
+-----------
+
+Future MACRO compatibility
+
+symbol==VALUE
+
+[   ]
+
+IFN
+IFE
+
+RELOC
+

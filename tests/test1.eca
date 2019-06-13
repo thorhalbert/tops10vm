@@ -1,0 +1,16 @@
+// Begin of ECA test 1
+
+	SEARCH proc.tab
+	SEARCH uuo.tab
+	SEARCH monsym.tab
+	SEARCH uuosym.tab
+
+: label1
+	- portal .+1
+	- movei 1, 11112
+	- lights 1, 
+	- JRST label2
+: label2
+	- EXIT
+
+// End

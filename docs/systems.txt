@@ -1,0 +1,41 @@
+1040 is small disk system with KA10 cpu
+1050 is large disk system with KA10 cpu
+1055 is disk system with 2 KA10 cpu's
+1070 is disk system with KI10 cpu
+1077 is disk system with 2 KI10 cpu's
+1080 is disk system with KL10 cpu
+1088 is disk system with 2 KL10 cpu's
+1091 is disk system with KL10 cpu, internal memory, and devices on the front end
+
+MEMORY OF 10S:
+
+				 Extended  Single Sec
+			 XKL-1	   KL10		KL10	KS10	KI10	KA10
+
+Physical Address	 4+29 A	   22		22	20 B	22	18
+(number of addr bits)
+
+Physical mem capacity	128M C	   4M		4M	512K	4M	256K
+
+Section bits implemented     12	   5		0	0	0	0
+
+Number of sections	     4096  32		1	1	1	1
+
+Virtual address		     30	   23		18	18	18	18
+
+Virtual Address Space	     1024M 8M		256K	256K	256K	256K
+
+A -  4 bit physical slot number and 29 bin in module address
+B - The maximum physical memory of the KS10 is 512K
+C - Four 32M memory boards
+
+PROCESSOR BUS's:
+
+KL10 
+     Up to 4 DTE20 pdp-11 front end processor interface units
+     Up to 8 RH20 Massbus contollers
+
+KS10
+     18-bit Unibus Adapter - Disk storage
+     8 or 16 bit Unibus Adaptor - Tape, LP, Comm, CDR
+     Console (8080 Based)

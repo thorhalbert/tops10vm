@@ -1,0 +1,1567 @@
+MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE     1                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+A8DDT.RNO    0.15    DX10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    PROGRAM USED FOR DEBUGGING PURPOSES             
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+A8DDT.TEC    0.15    DX10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    PROGRAM USED FOR DEBUGGING PURPOSES             
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+B.CMD        *       KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   KL10 DIAGNOSTIC RUN FILE.                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+BB.CMD       *       KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   KL10 DIAG. RUN FILE-MODEL B                     
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+BBT.CMD      *       KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   KL10 BOOT TEN RUN FILE-MODEL B                  
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+BBX.CMD      *       KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   NONE                                            
+    SDC UNIFIED NUMBERING CODE: N/A                             
+
+BF16N1.A11   2.1     KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   MF20 TIMING DATA FILES  (DGQFB)                 
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+BKTAD0.BIC   0.4     KT11-D    N/A     N/A     N/A     N/A     DDXLA   YES   NO    BASIC LOGIC TEST                                
+    SDC UNIFIED NUMBERING CODE: AH-7660D-MC                     
+
+BKTGD1.BIC   0.4     KT11-D    N/A     N/A     N/A     N/A     DDXLA   YES   NO    EXERCISER TEST                                  
+    SDC UNIFIED NUMBERING CODE: AH-7680D-MC                     
+
+BQEAB0.BIC   0.2     11/40     N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   11/40 CPU                                       
+    SDC UNIFIED NUMBERING CODE: AH-7690B-MC                     
+
+BT.CMD       *       KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   KL10 BOOT TEN RUN FILE                          
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+BT92.BIN     0.2     DAS92     N/A     N/A     N/A     N/A     N/A     NO    NO    DAS92 ROM COMPARE TAPE (DXDAA)                  
+    SDC UNIFIED NUMBERING CODE: AK-F198B-DD                     
+
+CCMFAF.BIN   0.6     11/40     N/A     N/A     N/A     N/A     DDXLA   YES   NO    PARITY MEMORY TEST                              
+    SDC UNIFIED NUMBERING CODE: AH-7885F-MC                     
+
+CDUMP.A11    0.17    KL10      N/A     DGZAA   DGYAA   DFXLK   N/A     YES   YES   KLDCP CORE DUMP (DGQDA)                         
+    SDC UNIFIED NUMBERING CODE: AH-7368Q-DD                     
+
+CFKAAC.BIN   0.3     11/34     N/A     N/A     N/A     N/A     DDXLA   YES   YES   11/34 BASIC INSTR. TEST                         
+    SDC UNIFIED NUMBERING CODE: AH-8042C-MC                     
+
+CFKABD.BIN   0.4     11/34     N/A     N/A     N/A     N/A     DDXLA   YES   YES   11/34 TRAPS TEST                                
+    SDC UNIFIED NUMBERING CODE: AH-8047D-MC                     
+
+CFKTHB.BIN   0.2     11/34     N/A     N/A     N/A     N/A     DDXLA   YES   YES   PDP 11/34 MEMORY MANAGEMENT DIAG.               
+    SDC UNIFIED NUMBERING CODE: AH-8055B-MC                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE     2                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+CONFG.CCL    *       KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   INTERNAL MEMORY CONFIGURATOR.                   
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+CONFG1.CCL   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   INTERNAL MEMORY CONFG - 1 WAY INTERLEAVE        
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+CONFGR.CCL   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   CCL FILE TO RELOCATE INTERNAL MEMORIES          
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+CONVRT.SAV   0.14    KL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DIAG. ASCIIZER CONVERSION (DDQDG)               
+    SDC UNIFIED NUMBERING CODE: AH-E282N-DD                     
+
+COPY.BIN     0.2     11/40     N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   DECTAPE TO FLOPPY COPY PROGRAM (DZQUQ)          
+    SDC UNIFIED NUMBERING CODE: AK-9083B-MC                     
+
+CQKCG1.BIC   0.7     11/40     N/A     N/A     N/A     N/A     DDXLA   YES   NO    INSTRUCTION EXERCISER                           
+    SDC UNIFIED NUMBERING CODE: AC-7895G-MC                     
+
+CXQLBN.LIB   0.16    DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEC/X11 PRODUCTS LIBRARY #1                     
+    SDC UNIFIED NUMBERING CODE: AH-8254N-MC                     
+
+CXQLHN.LIB   0.16    DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEC/X11 NEW OPTIONS MODULE LIB. #1              
+    SDC UNIFIED NUMBERING CODE: AH-8278N-MC                     
+
+CXQLIH.LIB   0.10    DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEC/X11 NEW OPTIONS MODULE LIB. #2              
+    SDC UNIFIED NUMBERING CODE: AH-8291H-MC                     
+
+CXQLOD.LIB   0.4     LSI       N/A     N/A     N/A     N/A     DDXLA   YES   YES   LSI-OPTIONS                                     
+    SDC UNIFIED NUMBERING CODE: AH-8304D-MC                     
+
+CXQLPF.LB1   0.6     OPT       N/A     N/A     N/A     N/A     DDXLA   YES   YES   NEW OPTIONS                                     
+    SDC UNIFIED NUMBERING CODE: AK-8309F-MC                     
+
+CXQLPF.LB2   0.6     OPT       N/A     N/A     N/A     N/A     DDXLA   YES   YES   NEW OPTIONS                                     
+    SDC UNIFIED NUMBERING CODE: AK-E379F-MC                     
+
+CZDHAC.BIN   0.3     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    STATIC LOGIC TEST                               
+    SDC UNIFIED NUMBERING CODE: AC-8444C-MC                     
+
+CZDHLC.BIN   0.3     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DH11 OVERLAY FOR INTERPROCESSOR TEST            
+    SDC UNIFIED NUMBERING CODE: AC-8488C-MC                     
+
+CZDHMD.BIN   0.4     DH11      N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   DH11 DIAGNOSTIC                                 
+    SDC UNIFIED NUMBERING CODE: AH-8494D-MC                     
+
+CZDHND.BIN   0.4     DH11      N/A     N/A     DJYAB   N/A     DDXLA   YES   YES   DH11 RELIABILITY                                
+    SDC UNIFIED NUMBERING CODE: AH-8498D-MC                     
+
+CZDLAG.BIN   0.7     DL11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    OFF-LINE TEST                                   
+    SDC UNIFIED NUMBERING CODE: AC-8516G-MC                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE     3                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+CZDLCD.BIN   0.4     DL11      N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   DL11/E DIAGNOSTIC                               
+    SDC UNIFIED NUMBERING CODE: AH-8525D-MC                     
+
+CZDLDD.BIN   0.4     DL11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DL11-W DIAGNOSTIC                               
+    SDC UNIFIED NUMBERING CODE: AH-8529D-MC                     
+
+CZDMCC.BIN   0.3     DMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMC11 BASIC W/R & MICROPR.TEST                  
+    SDC UNIFIED NUMBERING CODE: AH-8545C-MC                     
+
+CZDMEC.BIN   0.3     DMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMC11 DDCMP LINE UNIT TEST                      
+    SDC UNIFIED NUMBERING CODE: AH-8553C-MC                     
+
+CZDMFB.BIN   0.2     DMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMC11 BITSTUFF LINE UNIT TEST                   
+    SDC UNIFIED NUMBERING CODE: AH-8557B-MC                     
+
+CZDMGD.BIN   0.4     DMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMC11 JUMP & CROM TEST                          
+    SDC UNIFIED NUMBERING CODE: AH-8562D-MC                     
+
+CZDMHB.BIN   0.2     DMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMC11 FREE RUNNING TEST                         
+    SDC UNIFIED NUMBERING CODE: AH-8566B-MC                     
+
+CZDMIC.BIC   0.3     DMP/DMR   N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMR-11 FCTNL DIAG.                              
+    SDC UNIFIED NUMBERING CODE: AH-F830C-MC                     
+
+CZDMIC.HLP   0.3     DMP/DMR   N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMR-11 FCTNL DIAG HELP FILE                     
+    SDC UNIFIED NUMBERING CODE: N/A                             
+
+CZDMPB.BIC   0.2     DMP/DMR   N/A     N/A     N/A     N/A     DDXLA   YES   YES   M8207 STATIC DIAG. #1                           
+    SDC UNIFIED NUMBERING CODE: AH-E226B-MC                     
+
+CZDMQB.BIC   0.2     DMP/DMR   N/A     N/A     N/A     N/A     DDXLA   YES   YES   M8207 STATIC DIAG. #2                           
+    SDC UNIFIED NUMBERING CODE: AH-E229B-MC                     
+
+CZDMRD.BIC   0.4     DMP/DMR   N/A     N/A     N/A     N/A     DDXLA   YES   YES   M8203 STATIC DIAG. #1                           
+    SDC UNIFIED NUMBERING CODE: AH-E232D-MC                     
+
+CZDMSD.BIC   0.4     DMP/DMR   N/A     N/A     N/A     N/A     DDXLA   YES   YES   M8203 STATIC DIAG. #2                           
+    SDC UNIFIED NUMBERING CODE: AH-E235D-MC                     
+
+CZDPBC.BIN   0.3     DUP11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   BASIC DUP11 OFF-LINE SDLC TRANSM.TEST           
+    SDC UNIFIED NUMBERING CODE: AH-8577C-MC                     
+
+CZDPCD.BIN   0.4     DUP11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DUP11 OFF-LINE/SDLC REC.CONTR.+INTER.           
+    SDC UNIFIED NUMBERING CODE: AH-8581D-MC                     
+
+CZDPDD.BIN   0.4     DUP11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DUP11/SDLC.DATA + FUNC.+DEC MODE TEST           
+    SDC UNIFIED NUMBERING CODE: AH-8585D-MC                     
+
+CZDPEB.BIN   0.2     DUP11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DUP11 CONFIDENCE TEST                           
+    SDC UNIFIED NUMBERING CODE: AH-8589B-MC                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE     4                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+CZDQAD.BIN   0.4     DQ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DQ11 BASIC LOGIC TEST PART 1                    
+    SDC UNIFIED NUMBERING CODE: AH-8603D-MC                     
+
+CZDQBD.BIN   0.4     DQ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DQ11 BASIC LOGIC TEST PART 1                    
+    SDC UNIFIED NUMBERING CODE: AH-8608D-MC                     
+
+CZDQCE.BIN   0.5     DQ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DQ11 INTERRUPT LOGIC TEST                       
+    SDC UNIFIED NUMBERING CODE: AH-8612E-MC                     
+
+CZDQDE.BIN   0.5     DQ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DQ11 RECEIVER AND TRANSMITTER TEST              
+    SDC UNIFIED NUMBERING CODE: AH-8617E-MC                     
+
+CZDQEE.BIN   0.5     DQ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DQ11 MISC. RX & TX PLUS BCC TEST                
+    SDC UNIFIED NUMBERING CODE: AH-8623E-MC                     
+
+CZDQFE.BIN   0.5     DQ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DQ11 SEQUENCE REGISTER TEST                     
+    SDC UNIFIED NUMBERING CODE: AH-8628E-MC                     
+
+CZDQGB.BIN   0.2     DQ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DQ11 TRAIL PROGRAM & PARAMETER INPUT            
+    SDC UNIFIED NUMBERING CODE: AC-8630B-MC                     
+
+CZDQHD.BIN   0.4     DQ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DQ11 CHARACTER LENGTH & INTER. TEST             
+    SDC UNIFIED NUMBERING CODE: AH-8637D-MC                     
+
+CZKWAG.BIN   0.7     KW11      N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   KW11-L DIAGNOSTIC                               
+    SDC UNIFIED NUMBERING CODE: AH-8874G-MC                     
+
+CZLPC0.BIN   0.3     LPS11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   LPS11 TEST #1                                   
+    SDC UNIFIED NUMBERING CODE: N/A                             
+
+CZM9BA.BIN   0.1     M9312     N/A     N/A     N/A     N/A     DDXLA   YES   YES   M9312 BOOTSTRAP DIAGNOSTIC                      
+    SDC UNIFIED NUMBERING CODE: AH-E058A-MC                     
+
+CZQMCF.BIN   0.6     11/40     N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   MEMORY/PARITY                                   
+    SDC UNIFIED NUMBERING CODE: AH-9047F-MC                     
+
+CZRJAD.BIN   0.4     RP045&6   N/A     DJZAB   DJYAC   N/A     DDXLA   YES   YES   MECHANICAL READ WRITE TEST                      
+    SDC UNIFIED NUMBERING CODE: AH-9182D-MC                     
+
+CZRJBD.BIN   0.4     RP045&6   N/A     DJZAB   DJYAC   N/A     DDXLA   YES   YES   FORMATTER PROGRAM                               
+    SDC UNIFIED NUMBERING CODE: AH-9187D-MC                     
+
+CZRJCB.BIN   0.2     RPO45&6   N/A     DJZAB   DJYAC   N/A     DDXLA   YES   YES   HEAD ALIGNMENT VERIF. PROG.                     
+    SDC UNIFIED NUMBERING CODE: AH-9192B-MC                     
+
+CZRJDD.BIN   0.4     RP045&6   N/A     DJZAB   DJYAC   N/A     DDXLA   YES   YES   RH11/RP04/5/6 PERFORMANCE EXERC.                
+    SDC UNIFIED NUMBERING CODE: AH-9195D-MC                     
+
+CZRJGD.BIN   0.4     RP045&6   N/A     DJZAB   DJYAD   N/A     DDXLA   YES   YES   DISKLESS CONTROLLER TEST #1                     
+    SDC UNIFIED NUMBERING CODE: AH-9210D-MC                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE     5                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+CZRJHD.BIN   0.4     RP045&6   N/A     DJZAB   DJYAD   N/A     DDXLA   YES   YES   DISKLESS CONTROLLER TEST #2                     
+    SDC UNIFIED NUMBERING CODE: AH-9215D-MC                     
+
+CZRJID.BIN   0.4     RP045&6   N/A     DJZAB   DJYAD   N/A     DDXLA   YES   YES   FUNCTIONAL CONTROLLER TEST #1                   
+    SDC UNIFIED NUMBERING CODE: AH-9220D-MC                     
+
+CZRJJD.BIN   0.4     RP045&6   N/A     DJZAB   DJYAD   N/A     DDXLA   YES   YES   FUNCTIONAL CONTROLLER TEST #2                   
+    SDC UNIFIED NUMBERING CODE: AH-9225D-MC                     
+
+CZRXBF.BIN   0.6     RX11      N/A     N/A     DJYAB   N/A     DDXLA   YES   YES   RX11 FLOPPY DIAGNOSTIC                          
+    SDC UNIFIED NUMBERING CODE: AH-9341F-MC                     
+
+D20MON.A10   0.3     KL10      N/A     N/A     N/A     DFXLK   DDXLA   YES   YES   DECSYSTEM20 DIAG.MONITOR (DDQDH)                
+    SDC UNIFIED NUMBERING CODE: AH-E283C-DD                     
+
+D20MON.EXE   0.3     SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DECSYSTEM20 DIAG.MONITOR  (DDQDH)               
+    SDC UNIFIED NUMBERING CODE: AH-E283C-DD                     
+
+D20MON.SAV   0.3     SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DECSYSTEM20 DIAG.MONITOR  (DDQDH)               
+    SDC UNIFIED NUMBERING CODE: AH-E283C-DD                     
+
+D8KA0.BIN    0.1     KG11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   KG11 COMMUNICATIONS CRC TEST                    
+    SDC UNIFIED NUMBERING CODE: UNKNOWN                         
+
+DAKAA.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR TEST #1                    
+    SDC UNIFIED NUMBERING CODE: AH-6848B-DD                     
+
+DAKAB.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR TEST #2                    
+    SDC UNIFIED NUMBERING CODE: AH-6851B-DD                     
+
+DAKAC.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR TEST #3                    
+    SDC UNIFIED NUMBERING CODE: AH-6854B-DD                     
+
+DAKAD.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR TEST #4                    
+    SDC UNIFIED NUMBERING CODE: AH-6856B-DD                     
+
+DAKAE.SAV    0.3     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR TEST #5                    
+    SDC UNIFIED NUMBERING CODE: AH-6859C-DD                     
+
+DAKAF.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR TEST #6                    
+    SDC UNIFIED NUMBERING CODE: AH-6861B-DD                     
+
+DAKAG.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR DIAGNOSTIC #7              
+    SDC UNIFIED NUMBERING CODE: AH-6863B-DD                     
+
+DAKAH.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR DIAGNOSTIC #8              
+    SDC UNIFIED NUMBERING CODE: AH-6865B-DD                     
+
+DAKAI.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR DIAGNOSTIC #9              
+    SDC UNIFIED NUMBERING CODE: AH-6867B-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE     6                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DAKAJ.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR DIAGNOSTIC #10             
+    SDC UNIFIED NUMBERING CODE: AH-6871B-DD                     
+
+DAKAK.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR DIAGNOSTIC #11             
+    SDC UNIFIED NUMBERING CODE: AH-6873B-DD                     
+
+DAKAL.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR DIAGNOSTIC #12             
+    SDC UNIFIED NUMBERING CODE: AH-6878B-DD                     
+
+DAKAM.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC PROCESSOR DIAGNOSTIC #13             
+    SDC UNIFIED NUMBERING CODE: AH-6883B-DD                     
+
+DAKBA.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC INSTRUCTION RELIABILITY #1           
+    SDC UNIFIED NUMBERING CODE: AH-6887B-DD                     
+
+DAKBB.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC INSTRUCT RELIBILITY  DIAG #2         
+    SDC UNIFIED NUMBERING CODE: AH-6888B-DD                     
+
+DAKBC.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC INSTRUCT RELIBITY DIAG #3            
+    SDC UNIFIED NUMBERING CODE: AH-6889B-DD                     
+
+DAKBD.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 BASIC INSTRCT RELIBILITY DIAG #4           
+    SDC UNIFIED NUMBERING CODE: AH-6890B-DD                     
+
+DAKCA.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 ADVANCED INSTRUCTION DIAGNOSTIC #1         
+    SDC UNIFIED NUMBERING CODE: AH-6891B-DD                     
+
+DAKCB.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 ADVANCED INSTRUCTION DIAGNOSTIC #2         
+    SDC UNIFIED NUMBERING CODE: AH-6892B-DD                     
+
+DAKDA.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 ARITHMETIC RELIABILITY DIAGNOSTIC          
+    SDC UNIFIED NUMBERING CODE: AH-6893B-DD                     
+
+DAKDB.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 RANDOM INSTRUCTION RELIABILITY TEST        
+    SDC UNIFIED NUMBERING CODE: AH-6894B-DD                     
+
+DAKEA.SAV    0.3     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 RELOCATION AND PROTECT DIAGNOSTIC          
+    SDC UNIFIED NUMBERING CODE: AH-6895C-DD                     
+
+DAKEB.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 RE-ENTRANT RELIABILITY DIAGNOSTIC          
+    SDC UNIFIED NUMBERING CODE: AH-6896B-DD                     
+
+DAKFA.SAV    0.2     KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    KA10 INSTRUCTION TIMING DIAG. (SPEEDY)          
+    SDC UNIFIED NUMBERING CODE: AH-6897B-DD                     
+
+DBGOVL.A11   0.2     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   11 DIAG DEBUG OVERLAY                           
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DBKAA.SAV    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #1                       
+    SDC UNIFIED NUMBERING CODE: AH-6900B-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE     7                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DBKAB.SAV    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #2                       
+    SDC UNIFIED NUMBERING CODE: AH-6903B-DD                     
+
+DBKAC.SAV    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #3                       
+    SDC UNIFIED NUMBERING CODE: AH-6906B-DD                     
+
+DBKAD.SAV    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #4                       
+    SDC UNIFIED NUMBERING CODE: AH-6908B-DD                     
+
+DBKAE.SAV    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #5                       
+    SDC UNIFIED NUMBERING CODE: AH-6911B-DD                     
+
+DBKAF.SAV    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #6                       
+    SDC UNIFIED NUMBERING CODE: AH-6913B-DD                     
+
+DBKAG.SAV    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #7                       
+    SDC UNIFIED NUMBERING CODE: AH-6916B-DD                     
+
+DBKAH.SAV    0.3     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #8                       
+    SDC UNIFIED NUMBERING CODE: AH-F388C-DD                     
+
+DBKAI.A10    0.3     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #9                       
+    SDC UNIFIED NUMBERING CODE: AH-6923C-DD                     
+
+DBKAJ.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #10                      
+    SDC UNIFIED NUMBERING CODE: AH-6927B-DD                     
+
+DBKAK.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #11                      
+    SDC UNIFIED NUMBERING CODE: AH-6930B-DD                     
+
+DBKAL.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #12                      
+    SDC UNIFIED NUMBERING CODE: AH-6935B-DD                     
+
+DBKAM.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTRUCTION DIAG #13                      
+    SDC UNIFIED NUMBERING CODE: AH-6940B-DD                     
+
+DBKBA.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTR RELIAB TEST #1                      
+    SDC UNIFIED NUMBERING CODE: AH-6944B-DD                     
+
+DBKBB.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTR RELIAB TEST #2                      
+    SDC UNIFIED NUMBERING CODE: AH-6945B-DD                     
+
+DBKBC.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTR RELIAB TEST #3                      
+    SDC UNIFIED NUMBERING CODE: AH-6946B-DD                     
+
+DBKBD.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    BASIC INSTR RELIAB TEST #4                      
+    SDC UNIFIED NUMBERING CODE: AH-6947B-DD                     
+
+DBKCA.A10    0.3     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    ADVANCED INSTR DIAG #1                          
+    SDC UNIFIED NUMBERING CODE: AH-6948C-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE     8                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DBKCB.A10    0.3     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    ADVANCED INSTR DIAG #2                          
+    SDC UNIFIED NUMBERING CODE: AH-6949C-DD                     
+
+DBKCC.A10    0.3     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    ADVANCED INSTR DIAG #3                          
+    SDC UNIFIED NUMBERING CODE: AH-6950C-DD                     
+
+DBKCD.A10    0.3     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    ADVANCED INSTR DIAG #4                          
+    SDC UNIFIED NUMBERING CODE: AH-6951C-DD                     
+
+DBKCE.A10    0.3     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    ADVANCED INSTR DIAG #5                          
+    SDC UNIFIED NUMBERING CODE: AH-6952C-DD                     
+
+DBKDA.A10    0.3     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    ARITHMETIC RELIAB TEST                          
+    SDC UNIFIED NUMBERING CODE: AH-6953C-DD                     
+
+DBKDB.A10    0.3     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    RANDOM INSTR RELIAB TEST                        
+    SDC UNIFIED NUMBERING CODE: AH-6954C-DD                     
+
+DBKDC.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    INTERRUPT RELIAB TEST                           
+    SDC UNIFIED NUMBERING CODE: AH-6955B-DD                     
+
+DBKEA.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    PAGING HARDWARE DIAG                            
+    SDC UNIFIED NUMBERING CODE: AH-6956B-DD                     
+
+DBKEB.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    MONITOR UUO & USER MODE                         
+    SDC UNIFIED NUMBERING CODE: AH-6957B-DD                     
+
+DBKEC.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    PAGED EXECUTE DIAG                              
+    SDC UNIFIED NUMBERING CODE: AH-6958B-DD                     
+
+DBKFA.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    CONSOLE FUNCTION DIAG                           
+    SDC UNIFIED NUMBERING CODE: AH-6959B-DD                     
+
+DBKFB.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    INSTRUCTION TIMING TEST.                        
+    SDC UNIFIED NUMBERING CODE: AH-6960B-DD                     
+
+DBKFC.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    POWER SUPPLY CALIBRAT TEST                      
+    SDC UNIFIED NUMBERING CODE: AH-6961B-DD                     
+
+DBKFD.A10    0.2     KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    I/O BUS TESTER DIAG.                            
+    SDC UNIFIED NUMBERING CODE: AH-6962B-DD                     
+
+DBKTBB.BIN   0.2     KT11-D    N/A     N/A     N/A     N/A     DDXLA   YES   NO    ACCESS KEYS TEST                                
+    SDC UNIFIED NUMBERING CODE: AH-7664B-MC                     
+
+DBKTDC.BIN   0.3     KT11-D    N/A     N/A     N/A     N/A     DDXLA   YES   NO    PROCESSOR STATES TEST                           
+    SDC UNIFIED NUMBERING CODE: AH-7672C-MC                     
+
+DCDAM.SAV    0.4     DA28      N/A     N/A     N/A     N/A     DDXLA   YES   NO    BOOTSTRAP PDP8,11 OR 15 VIA DA28                
+    SDC UNIFIED NUMBERING CODE: AH-6975D-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE     9                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DCXLA-MB     0.13    MEDIA     N/A     N/A     N/A     DCXLA   N/A     N/A   N/A   KA/KI CPU DIAG MGT 1600 BPI/ BB-E545K-DD        
+    SDC UNIFIED NUMBERING CODE: 800 BPI/AP-E544K-DD             
+
+DDANA.A10    0.2     AN10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   AN10/AN20 ARPA DIAG.                            
+    SDC UNIFIED NUMBERING CODE: AH-S475B-DD                     
+
+DDANB.A10    0.4     AN10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   USER MODE IMPTST                                
+    SDC UNIFIED NUMBERING CODE: AH-E418D-DD                     
+
+DDCPA.A10    0.5     CP10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   PDP10 CARD PUNCH DIAGNOSTIC                     
+    SDC UNIFIED NUMBERING CODE: AH-7068E-DD                     
+
+DDCRA.A10    0.2     CR10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   CARD READER DIAG (DECKS C1,C2,C3,&C4)           
+    SDC UNIFIED NUMBERING CODE: AH-7073B-DD                     
+
+DDDAE.A10    0.3     DA28      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DA28 BASIC DIAG                                 
+    SDC UNIFIED NUMBERING CODE: AH-7074C-DD                     
+
+DDDAF.A10    0.4     DA28      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DA28 INTPROC BFR                                
+    SDC UNIFIED NUMBERING CODE: AH-7076D-DD                     
+
+DDDCA.A10    0.3     DC10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DC10 DATA LINE SCAN DIAG                        
+    SDC UNIFIED NUMBERING CODE: AH-7078C-DD                     
+
+DDDFA.A10    0.6     DF10C     N/A     N/A     N/A     N/A     DDXLA   YES   NO    PDP10 DF10/C DIAG                               
+    SDC UNIFIED NUMBERING CODE: AH-7079F-DD                     
+
+DDDKA.A10    0.1     DK10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DK10 REAL TIME CLOCK                            
+    SDC UNIFIED NUMBERING CODE: AH-7080A-DD                     
+
+DDDLA.A10    0.5     DL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DL10 DIAGNOSTIC #1                              
+    SDC UNIFIED NUMBERING CODE: AH-7081E-DD                     
+
+DDDLB.A10    0.3  #  DL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DL10 DIAGNOSTIC #2                              
+    SDC UNIFIED NUMBERING CODE: AH-7083C-DD                     
+
+DDDLG.A10    0.1     DL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DL10 PDP-11 LOADER                              
+    SDC UNIFIED NUMBERING CODE: AH-7084A-DD                     
+
+DDDLH.A10    0.2     DL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DL10 EXEC-MODE DOWNLINE LOADER                  
+    SDC UNIFIED NUMBERING CODE: AH-7085B-DD                     
+
+DDDMA.A10    0.2     DMA10     N/A     N/A     N/A     N/A     DDXLA   YES   NO    DMA10 DIAGNOSTIC                                
+    SDC UNIFIED NUMBERING CODE: AH-7086B-DD                     
+
+DDDTA.A10    0.1     DT03      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DT03-CC SWITCH CONTROLLER-A                     
+    SDC UNIFIED NUMBERING CODE: AH-7087A-DD                     
+
+DDDTB.A10    0.1     DT03      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DT03-CC SWITCH CONTROLLER-B                     
+    SDC UNIFIED NUMBERING CODE: AH-7088A-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    10                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DDDXA.A10    0.5     DX10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DX10 DATA CHANNEL DIAG #1                       
+    SDC UNIFIED NUMBERING CODE: AH-7091E-DD                     
+
+DDDXB.A10    0.6     DX10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DX10 CHANNEL DIAG. #2                           
+    SDC UNIFIED NUMBERING CODE: AH-7103F-DD                     
+
+DDIPA.A10    0.1     DB/IP10   N/A     N/A     N/A     N/A     DDXLA   YES   NO    DB10/IP10 INTERPROCESSOR BUFFER DIAGNOSTIC      
+    SDC UNIFIED NUMBERING CODE: UNKNOWN                         
+
+DDLAA.A10    0.2     LA36      N/A     N/A     N/A     N/A     DDXLA   YES   YES   LA36 TERMINAL                                   
+    SDC UNIFIED NUMBERING CODE: AH-7115B-DD                     
+
+DDLPA.A10    0.5     LP10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   PDP10 LINE PRINTER DIAGNOSTIC                   
+    SDC UNIFIED NUMBERING CODE: AH-7116E-DD                     
+
+DDLTA.A10    0.1     LTXX      N/A     N/A     N/A     N/A     DDXLA   YES   YES   TELETYPE TEST                                   
+    SDC UNIFIED NUMBERING CODE: AH-7117A-DD                     
+
+DDMMC.A10    0.2     MEMORY    N/A     N/A     N/A     N/A     DDXLA   YES   YES   FAST AC DIAGNOSTIC                              
+    SDC UNIFIED NUMBERING CODE: AH-7118B-DD                     
+
+DDMMD.A10    0.3     MEMORY    N/A     N/A     N/A     N/A     DDXLA   YES   YES   PDP10 MEMORY DIAGNOSTIC USER/EXEC               
+    SDC UNIFIED NUMBERING CODE: AH-7121C-DD                     
+
+DDMME.A10    0.1     MEMORY    N/A     N/A     N/A     N/A     DDXLA   YES   YES   BLT/MEMORY EXERCISOR TEST                       
+    SDC UNIFIED NUMBERING CODE: AH-7126A-DD                     
+
+DDMMF.A10    0.1     MEMORY    N/A     N/A     N/A     N/A     DDXLA   YES   YES   FLOATING ONES/ZEROS MEMORY DIAGNOSTIC           
+    SDC UNIFIED NUMBERING CODE: AH-7127A-DD                     
+
+DDPCA.A10    0.2     PC10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   PDP10 PAPER TAPE READER PUNCH DIAGNOSTIC        
+    SDC UNIFIED NUMBERING CODE: AH-7129B-DD                     
+
+DDQCB.A10    0.12    SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   10 MEM SYS EXER                                 
+    SDC UNIFIED NUMBERING CODE: AH-7133J-DD                     
+
+DDRHA.A10    0.4     RH10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DEVICE-LESS DIAGNOSTIC                          
+    SDC UNIFIED NUMBERING CODE: AH-F291D-DD                     
+
+DDRMA.A10    0.1     RM10B     N/A     N/A     N/A     N/A     DDXLA   YES   NO    RC10/RM10B DIAGNOSTIC #1                        
+    SDC UNIFIED NUMBERING CODE: AH-7157A-DD                     
+
+DDRMB.A10    0.1     RM10B     N/A     N/A     N/A     N/A     DDXLA   YES   NO    RC10/RM10B DIAGNOSTIC #2                        
+    SDC UNIFIED NUMBERING CODE: AH-7158A-DD                     
+
+DDRMC.A10    0.2     RM10B     N/A     N/A     N/A     N/A     DDXLA   YES   NO    RC10/RM10B RELIABILITY DIAGNOSTIC               
+    SDC UNIFIED NUMBERING CODE: AH-7159B-DD                     
+
+DDRPA.A10    0.3     RP10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DISK PACK INTERFACE DIAG #1                     
+    SDC UNIFIED NUMBERING CODE: AH-7160C-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    11                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DDRPB.A10    0.1     RP10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DISK PACK INTERFACE DIAG #2                     
+    SDC UNIFIED NUMBERING CODE: AH-7161A-DD                     
+
+DDRPC.A10    0.3     RP10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DISK PACK RELIAB TEST                           
+    SDC UNIFIED NUMBERING CODE: AH-7162C-DD                     
+
+DDRPD.SAV    0.3     DISKS     N/A     N/A     N/A     N/A     DDXLA   YES   YES   USER MODE DISK PERFORMANCE DIAGNOSTIC.          
+    SDC UNIFIED NUMBERING CODE: AH-7163C-DD                     
+
+DDRPE.SAV    0.6     DISKS     N/A     N/A     N/A     N/A     DDXLA   YES   YES   USER MODE DISK FORMATTING PROGRAM               
+    SDC UNIFIED NUMBERING CODE: AH-7020F-DD                     
+
+DDRPH.A10    0.5     RPO4      N/A     N/A     N/A     N/A     DDXLA   YES   NO    RH10/RPO4 BASIC DEVICE DIAGNOSTIC               
+    SDC UNIFIED NUMBERING CODE: AH-7167E-DD                     
+
+DDRPI.A10    0.12    RP04/5/   N/A     N/A     N/A     N/A     DDXLA   YES   YES   RH10/20 RP04/5/6 RELIABILITY DIAGNOSTIC         
+    SDC UNIFIED NUMBERING CODE: AH-7168J-DD                     
+
+DDRPJ.A10    0.1     RPO5      N/A     N/A     N/A     N/A     DDXLA   YES   NO    RH10/RPO5 BASIC DEVICE DIAGNOSTIC               
+    SDC UNIFIED NUMBERING CODE: UNKNOWN                         
+
+DDRPK.A10    0.5     RPO6      N/A     N/A     N/A     N/A     DDXLA   YES   NO    RH10/RPO6 BASIC DEVICE DIAGNOSTIC               
+    SDC UNIFIED NUMBERING CODE: AH-7170E-DD                     
+
+DDRSB.A10    0.2     RH10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DISK TRANSFER AND RELIAB TEST                   
+    SDC UNIFIED NUMBERING CODE: AH-7171B-DD                     
+
+DDRSC.A10    0.1     RH10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    BASIC DEVICE DIAGNOSTIC                         
+    SDC UNIFIED NUMBERING CODE: AH-7172A-DD                     
+
+DDTDA.A10    0.2     TD10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    TD10 DIAGNOSTIC #1                              
+    SDC UNIFIED NUMBERING CODE: AH-7173B-DD                     
+
+DDTDB.A10    0.1     TD10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    TD10 DIAGNOSTIC #2                              
+    SDC UNIFIED NUMBERING CODE: AH-7179A-DD                     
+
+DDTDC.A10    0.1     TD10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    TD10 DIAG #3(DECTAPE SIMULATOR)                 
+    SDC UNIFIED NUMBERING CODE: AH-7184A-DD                     
+
+DDTDD.A10    0.2     TD10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DECTAPE RELIABLITY TEST                         
+    SDC UNIFIED NUMBERING CODE: AH-7188B-DD                     
+
+DDTDE.A10    0.1     TD10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DECTAPE CERTIFICATION PROGRAM                   
+    SDC UNIFIED NUMBERING CODE: AH-7193A-DD                     
+
+DDTMA.A10    0.2     TM10A     N/A     N/A     N/A     N/A     DDXLA   YES   NO    TM10A DIAGNOSTIC #1                             
+    SDC UNIFIED NUMBERING CODE: AH-7196B-DD                     
+
+DDTMB.A10    0.1     TM10A     N/A     N/A     N/A     N/A     DDXLA   YES   NO    TM10A DIAGNOSTIC #2                             
+    SDC UNIFIED NUMBERING CODE: AH-7202A-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    12                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DDTMC.A10    0.1     TM10A     N/A     N/A     N/A     N/A     DDXLA   YES   NO    TM10A DIAGNOSTIC #3                             
+    SDC UNIFIED NUMBERING CODE: AH-7207A-DD                     
+
+DDTMD.A10    0.2     TM10B     N/A     N/A     N/A     N/A     DDXLA   YES   NO    MAGTAPE DIAGNOSTIC #1                           
+    SDC UNIFIED NUMBERING CODE: AH-7213B-DD                     
+
+DDTME.A10    0.3     TM10B     N/A     N/A     N/A     N/A     DDXLA   YES   NO    MAGNETIC TAPE CONTROL TEST                      
+    SDC UNIFIED NUMBERING CODE: AH-7217C-DD                     
+
+DDTMF.A10    0.2     TM10B     N/A     N/A     N/A     N/A     DDXLA   YES   NO    MAGTAPE DIAGNOSTIC #3                           
+    SDC UNIFIED NUMBERING CODE: AH-7224B-DD                     
+
+DDTMH.A10    0.3     TM10ABE   N/A     N/A     N/A     N/A     DDXLA   YES   NO    TM10A/B/E RELIABILITY DIAGNOSTIC                
+    SDC UNIFIED NUMBERING CODE: AH-7229C-DD                     
+
+DDTMI.A10    0.1     TM10E     N/A     N/A     N/A     N/A     DDXLA   YES   NO    TM10E DIAGNOSTIC #1                             
+    SDC UNIFIED NUMBERING CODE: AH-7238A-DD                     
+
+DDTMJ.A10    0.1     TM10E     N/A     N/A     N/A     N/A     DDXLA   YES   NO    TM10E DIAGNOSTIC #2                             
+    SDC UNIFIED NUMBERING CODE: AH-7243A-DD                     
+
+DDTMK.A10    0.1     TM10E     N/A     N/A     N/A     N/A     DDXLA   YES   NO    TM10E DIAGNOSTIC #3                             
+    SDC UNIFIED NUMBERING CODE: AH-7249A-DD                     
+
+DDTUA.A10    0.10    TU70      N/A     N/A     N/A     N/A     DDXLA   YES   YES   MAGNETIC TAPE SUBSYS. DIAG.                     
+    SDC UNIFIED NUMBERING CODE: AH-7257H-DD                     
+
+DDTUB.A10    0.8     TU70      N/A     N/A     N/A     N/A     DDXLA   YES   YES   MAGNETIC TAPE SUBSYS. RELIA.                    
+    SDC UNIFIED NUMBERING CODE: AH-7271H-DD                     
+
+DDTUG.A10    0.5     RH10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   BASIC/RELIABILITY DIAG                          
+    SDC UNIFIED NUMBERING CODE: AH-7281E-DD                     
+
+DDTUH.A10    0.2     RH10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   MAGTAPE MULTI-DRIVE EXERCISER                   
+    SDC UNIFIED NUMBERING CODE: AH-7283B-DD                     
+
+DDTUK.A10    0.1     RH10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   MAGTAPE RELIAB. DIAG.                           
+    SDC UNIFIED NUMBERING CODE: AH-E177A-DD                     
+
+DDVTA.A10    0.2     VTXX      N/A     N/A     N/A     N/A     DDXLA   YES   YES   VT05/VT06/VT50 DIAGNOSTIC                       
+    SDC UNIFIED NUMBERING CODE: AH-7285B-DD                     
+
+DDVTC.A10    0.1     VT61      N/A     N/A     N/A     N/A     DDXLA   YES   YES   VT61 AND VT61-E USER MODE DIAGNOSTIC            
+    SDC UNIFIED NUMBERING CODE: AH-F160A-DD                     
+
+DDXLA-MB     0.15    MEDIA     N/A     N/A     N/A     N/A     DDXLA   N/A   N/A   KL10 PERIPHERAL DIAG MGT 1600 BPI/ BB-E541M-DD  
+    SDC UNIFIED NUMBERING CODE: (800 BPI/ AP-E540M-D            
+
+DDXYA.A10    0.2     XY10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   CALCOMP PLOTTER DIAG                            
+    SDC UNIFIED NUMBERING CODE: AH-7298B-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    13                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DECDOC.SAV   0.23    SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   NO    DIAG. DOCUMENTATION PROGRAM                     
+    SDC UNIFIED NUMBERING CODE: UNKNOWN                         
+
+DECFLO.SAV   0.12    SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   NO    DIAG.FLOW CHART PROGRAM                         
+    SDC UNIFIED NUMBERING CODE: UNKNOWN                         
+
+DEDMA.A10    0.1     DMA10     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMA10 MEMORY SHARING INTERFACE DIAGNOSTIC       
+    SDC UNIFIED NUMBERING CODE: AH-F281A-DD                     
+
+DEMMG.A10    0.2     MEMORY    N/A     N/A     N/A     N/A     DDXLA   YES   YES   4096K MEMORY DIAGNOSTIC                         
+    SDC UNIFIED NUMBERING CODE: AH-E178B-DD                     
+
+DFDLI.A10    0.1     DL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DL10 PDP10 MULTI PDP11 TEST                     
+    SDC UNIFIED NUMBERING CODE: AH-E566A-DD                     
+
+DFDNA.EXE    0.2     DN20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DN20 DIAGNOSTIC LOADER PROGRAM                  
+    SDC UNIFIED NUMBERING CODE: AH-F102B-DD                     
+
+DFDRA.A10    0.1     DR01      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DRO1/RH20 CHANNEL INTERFACE DIAGNOSTIC PROGRAM  
+    SDC UNIFIED NUMBERING CODE: AH-E555A-DD                     
+
+DFDTE.A10    0.13    DTE20     N/A     N/A     DHYKF   DFXLK   N/A     YES   YES   DTE20 FUNCTIONAL INTERFACE DIAGNOSTIC           
+    SDC UNIFIED NUMBERING CODE: AH-7311K-DD                     
+
+DFDXC.A10    0.5     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   PROGD DEV ADPT DIAG                             
+    SDC UNIFIED NUMBERING CODE: AH-E179E-DD                     
+
+DFDXC.CDX    0.4  #  DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEVICE ADAPTER DIAG.(RH20)                      
+    SDC UNIFIED NUMBERING CODE: AH-E179D-DD                     
+
+DFDXD.A10    0.4     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   MAGNETIC TAPE SUBSYSTEM DIAG. (RH20)            
+    SDC UNIFIED NUMBERING CODE: AH-E180D-DD                     
+
+DFDXD.CDX    0.3     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   MAGNETIC TAPE SUBSYS. DIAG. (RH20)              
+    SDC UNIFIED NUMBERING CODE: AH-E180C-DD                     
+
+DFDXE.A10    0.3     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   MAGNETIC SUBSYSTEM RELIAB. DIAG. (RH20)         
+    SDC UNIFIED NUMBERING CODE: AH-E181C-DD                     
+
+DFDXG.A10    0.2     RP20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   RP20 FORMATTER & EXERCISER                      
+    SDC UNIFIED NUMBERING CODE: AH-S386B-DD                     
+
+DFKAA.A10    0.2     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 BASIC INSTRUCTION DIAGNOSTIC #1            
+    SDC UNIFIED NUMBERING CODE: AH-7312B-DD                     
+
+DFKAB.A10    0.1     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 BASIC INSTRUCTION DIAGNOSTIC #2            
+    SDC UNIFIED NUMBERING CODE: AH-7313A-DD                     
+
+DFKAC.A10    0.1     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 BASIC INSTRUCTION DIAGNOSTIC #3            
+    SDC UNIFIED NUMBERING CODE: AH-7314A-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    14                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DFKAD.A10    0.1     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 BASIC INSTRUCTION DIAGNOSTIC #4            
+    SDC UNIFIED NUMBERING CODE: AH-7315A-DD                     
+
+DFKBA.A10    0.1     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 BASIC INSTRUCT RELIABILITY DIAG #1         
+    SDC UNIFIED NUMBERING CODE: AH-7317A-DD                     
+
+DFKBB.A10    0.1     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 BASIC INSTRUCT RELIABILITY DUAG #2         
+    SDC UNIFIED NUMBERING CODE: AH-7318A-DD                     
+
+DFKCA.A10    0.2     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 ADVANCED INSTRUCTION DIAGNOSTIC #1         
+    SDC UNIFIED NUMBERING CODE: AH-7319B-DD                     
+
+DFKCB.A10    0.1     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 ADVANCED INSTRUCTION DIAGNOSTIC #2         
+    SDC UNIFIED NUMBERING CODE: AH-F468A-DD                     
+
+DFKCC.A10    0.1     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 ADVANCED INSTRUCTION DIAGNOSTIC #3         
+    SDC UNIFIED NUMBERING CODE: AH-F827A-DD                     
+
+DFKDA.A10    0.3     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 CPU/PI/MEMORY RELIABLITY DIAGNOSTIC        
+    SDC UNIFIED NUMBERING CODE: AH-F533C-DD                     
+
+DFKEA.A10    0.5     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   CPU PAGING HARDWARE DIAGNOSTIC                  
+    SDC UNIFIED NUMBERING CODE: AH-F545E-DD                     
+
+DFKEB.A10    0.2     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   MONITOR UUO & USER MODE DIAG                    
+    SDC UNIFIED NUMBERING CODE: AH-7323B-DD                     
+
+DFKEC.A10    0.2     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 PXCT TEST                                  
+    SDC UNIFIED NUMBERING CODE: AH-E568B-DD                     
+
+DFKED.A10    0.2     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   EXTENDED ADDRESSING TEST                        
+    SDC UNIFIED NUMBERING CODE: AH-F155B-DD                     
+
+DFKFB.A10    0.1     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 CPU INSTR TIMING DIAGNOSTIC                
+    SDC UNIFIED NUMBERING CODE: AH-7324A-DD                     
+
+DFKFD.A10    0.2     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 CPU ADVANCED RELIAB I/O BUS TESTER         
+    SDC UNIFIED NUMBERING CODE: AH-7325B-DD                     
+
+DFMMH.A10    0.7     KL10      N/A     N/A     N/A     N/A     DDXLA   YES   YES   KL10 4096K MEMORY DIAG                          
+    SDC UNIFIED NUMBERING CODE: AH-F047G-DD                     
+
+DFRHB.A10    0.13    RH20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   RH20 DEVICE-LESS DIAGNOSTIC                     
+    SDC UNIFIED NUMBERING CODE: AH-7330M-DD                     
+
+DFRPH.A10    0.5     RPO4      N/A     N/A     N/A     N/A     DDXLA   YES   YES   RH20/RPO4 BASIC DEVICE DIAG.                    
+    SDC UNIFIED NUMBERING CODE: AH-7322E-DD                     
+
+DFRPJ.A10    0.1     RPO5      N/A     N/A     N/A     N/A     DDXLA   YES   YES   RH20/RPO5 BASIC DEVICE DIAG.                    
+    SDC UNIFIED NUMBERING CODE: AH-7333A-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    15                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DFRPK.A10    0.5     RPO6      N/A     N/A     N/A     N/A     DDXLA   YES   YES   RH20/RPO6 BASIC DEVICE DIAG.                    
+    SDC UNIFIED NUMBERING CODE: AH-7335E-DD                     
+
+DFRPM.A10    0.1     RP04/6/   N/A     N/A     N/A     N/A     DDXLA   YES   YES   RP04/05/07 FORMATTER/EXERCISER                  
+    SDC UNIFIED NUMBERING CODE: AH-T101A-DD                     
+
+DFRPM.HLP    *       RP04/6/   N/A     N/A     N/A     N/A     DDXLA   YES   YES   HELP FILE                                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DFRPN.A10    0.2     RP07      N/A     N/A     N/A     N/A     DDXLA   YES   YES   RP07 BASIC DRIVE DIAGNOSTIC                     
+    SDC UNIFIED NUMBERING CODE: AH-T102B-DD                     
+
+DFRPN.HLP    *       RP07      N/A     N/A     N/A     N/A     DDXLA   YES   YES   HELP FILE                                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DFRSA.A10    0.1     RS20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   RH/RS20 BASIC RELIAB.DISK DIAG.                 
+    SDC UNIFIED NUMBERING CODE: AH-E977A-DD                     
+
+DFSXA.A10    0.5     2040      N/A     N/A     N/A     N/A     DDXLA   YES   YES   2040 SYSTEM EXERCISER.                          
+    SDC UNIFIED NUMBERING CODE: AH-7336E-DD                     
+
+DFTUE.A10    0.12    TM02      N/A     DGZDF   DFYDC   N/A     DDXLA   YES   YES   RH20/TM02 TU16/45 BASIC/RELIAB.                 
+    SDC UNIFIED NUMBERING CODE: AH-7338J-DD                     
+
+DFTUF.A10    0.2     TU16/45   N/A     N/A     N/A     N/A     DDXLA   YES   YES   TM02 TU16/TU45 DIAGNOSTIC EXERCISOR.            
+    SDC UNIFIED NUMBERING CODE: AH-7339B-DD                     
+
+DFTUI.A10    0.1     RH20              N/A     N/A     N/A     DDXLA   YES   YES   TM78 BSC DEV DIAG                               
+    SDC UNIFIED NUMBERING CODE: AH-E954A-DD                     
+
+DFTUI.PAK    NEW     RH20      N/A     N/A     N/A             DDXLA   YES   YES                                                   
+    SDC UNIFIED NUMBERING CODE:                                 
+
+DFTUJ.A10    0.1     RH20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   TM78/TU78 REL DIAG                              
+    SDC UNIFIED NUMBERING CODE: AH-F955A-DD                     
+
+DFTUK.A10    0.3     RH20-TM   N/A     DGZDG   DFYDD   N/A     DDXLA   YES   YES   MAGTAPE RELIAB DIAG.                            
+    SDC UNIFIED NUMBERING CODE: AH-E182C-DD                     
+
+DFXLK-MB     0.27    MEDIA     N/A     N/A     N/A     DFXLK   N/A     N/A   N/A   (KL10 CPU DIAG MGT 1600 BPI/ BB-E543W-DD)       
+    SDC UNIFIED NUMBERING CODE: (800 BPI/ AP-E542W-D            
+
+DFYDC-YB     0.3     TM02      N/A     DGZDF   DFYDC   N/A     DDXLA   N/A   N/A   RH20/TM02 TU16/45 BASIC RELIAB.                 
+    SDC UNIFIED NUMBERING CODE: AS-F894C-DD                     
+
+DFYDD-YB     0.2     RH20-TM   N/A     DGZDG   DFYDD   N/A     DDXLA   N/A   N/A   MAGTAPE RELIAB DIAG.                            
+    SDC UNIFIED NUMBERING CODE: AS-F850B-DD                     
+
+DGDIAG.CMD   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   DIAG. COMMAND RUN FILE                          
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    16                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DGDTE.A11    0.15    DTE20     N/A     N/A     N/A     DFXLK   N/A     YES   YES   DTE20 OPTION (10-11 INTERFACE) DIAGNOSTIC       
+    SDC UNIFIED NUMBERING CODE: AH-7350M-DD                     
+
+DGDTE.BIN    0.15    DTE20     N/A     N/A     N/A     DFXLK   N/A     YES   YES   DTE20 OPTION (10-11 INTERFACE) DIAGNOSTIC       
+    SDC UNIFIED NUMBERING CODE: AH-7350M-DD                     
+
+DGKAA.A11    0.11    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   E-BOX DIAGNOSTIC, PART 1                        
+    SDC UNIFIED NUMBERING CODE: AH-7351K-DD                     
+
+DGKAB.A11    0.12    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   E-BOX DIAGNOSTIC, PART 2                        
+    SDC UNIFIED NUMBERING CODE: AH-7353L-DD                     
+
+DGKBA.A11    0.11    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   M-BOX BASIC DIAGNOSTIC                          
+    SDC UNIFIED NUMBERING CODE: AH-7355K-DD                     
+
+DGKBB.A11    0.11    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   MEMORY SYSTEM DIAG TEST                         
+    SDC UNIFIED NUMBERING CODE: AH-7356K-DD                     
+
+DGKBC.A11    0.10    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   PAGING LOGIC DIAGNOSTIC                         
+    SDC UNIFIED NUMBERING CODE: AH-7358J-DD                     
+
+DGKBD.A11    0.14    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   INTERNAL CHANNEL CONTROL TEST                   
+    SDC UNIFIED NUMBERING CODE: AH-7360N-DD                     
+
+DGKBE.A11    0.12    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   INTERNAL CHANNEL LOOPBACK TEST                  
+    SDC UNIFIED NUMBERING CODE: AH-7362L-DD                     
+
+DGKCA.A11    0.10    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   E-BOX METER BOARD DIAGNOSTIC                    
+    SDC UNIFIED NUMBERING CODE: AH-7363J-DD                     
+
+DGMCA.A11    0.13    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   M-BOX MCA20 CACHE OPTION DIAGNOSTIC             
+    SDC UNIFIED NUMBERING CODE: AH-7364K-DD                     
+
+DGMCB.A11    1.10    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   MBOX-CACHE PART 2                               
+    SDC UNIFIED NUMBERING CODE: AH-7365J-D1                     
+
+DGMMA.A11    0.3     MEMORY    N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 MEMORY RELIABILITY                         
+    SDC UNIFIED NUMBERING CODE: AH-7366C-DD                     
+
+DGQDD.A11    0.1     KL10      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   DLDP (DL11E MONITOR)                            
+    SDC UNIFIED NUMBERING CODE: AH-7371A-DD                     
+
+DGQDE.A11    0.1     DN87S     N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   DN87S LOADER UTILITY PROG                       
+    SDC UNIFIED NUMBERING CODE: AH-7372A-DD                     
+
+DGQDF.A11    0.3     DN2X      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   DN2X FRONT END LOADER UTILITY                   
+    SDC UNIFIED NUMBERING CODE: AH-7373C-DD                     
+
+DGQDG.A11    0.1     DN2X      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   DN2X SECONDARY FRONT END MONITOR                
+    SDC UNIFIED NUMBERING CODE: AH-7374A-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    17                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DGQEA.BIN    0.1     DN2X      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   DN2X BOOTSTRAP LOADER PROGRAM                   
+    SDC UNIFIED NUMBERING CODE: AH-7375A-DD                     
+
+DGQFA.A11    0.11    SYSTEM    N/A     N/A     N/A     DFXLK   N/A     YES   YES   TRACON FOR MODEL A KL10                         
+    SDC UNIFIED NUMBERING CODE: AH-7376K-DD                     
+
+DGSBA.A11    0.2     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   X/S BUS RECORDER DIAGNOSTIC                     
+    SDC UNIFIED NUMBERING CODE: AH-E188B-DD                     
+
+DGYAA-YB     0.13    MEDIA     N/A     N/A     DGYAA   N/A     N/A     N/A   N/A   KL10 DIAG CONSOLE CUSP DISKETTE                 
+    SDC UNIFIED NUMBERING CODE: AS-7377K-DD                     
+
+DGYBA-YB     0.17    MEDIA     N/A     N/A     DGYBA   N/A     N/A     N/A   N/A   KL10 MODEL A SUPPORT CUSP                       
+    SDC UNIFIED NUMBERING CODE: AS-7378O-DD                     
+
+DGYBB-YB     0.21    MEDIA     N/A     DGZBB   DGYBB   N/A     N/A     N/A   N/A   KL10 CONSOLE SIGNAL TRACER CUSP                 
+    SDC UNIFIED NUMBERING CODE: AS-7397Q-DD                     
+
+DGZAA-UB     0.14    MEDIA     N/A     DGZAA   N/A     N/A     N/A     N/A   N/A   KL10 CONSOLE DECTAPE CUSP                       
+    SDC UNIFIED NUMBERING CODE: AL-7395K-DD                     
+
+DGZBA-UB     0.17    MEDIA     N/A     DGZBA   DGYBA   N/A     N/A     N/A   N/A   KL10 MODEL A SUPPORT CUSP                       
+    SDC UNIFIED NUMBERING CODE: AL-7396O-DD                     
+
+DGZBB-UB     0.21    MEDIA     N/A     DGZBB   DGYBB   N/A     N/A     N/A   N/A   KL10 CONSOLE SIGNAL TRACER CUSP                 
+    SDC UNIFIED NUMBERING CODE: AL-7397Q-DD                     
+
+DGZDF-UB     0.3     TM02      N/A     DGZDF   DFYDC   N/A     DDXLA   N/A   N/A   RH20/TM02 TU16/45 BASIC/RELIAB.                 
+    SDC UNIFIED NUMBERING CODE: AL-F851C-DD                     
+
+DGZDG-UB     0.2     RH20-TM   N/A     DGZDG   DFYDD   N/A     N/A     N/A   N/A   MAGTAPE RELIAB DIAG.                            
+    SDC UNIFIED NUMBERING CODE: AL-F852B-DD                     
+
+DH1017.A11   *       KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B SIGNAL NAME TRANSLATOR DF 100-117         
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DH1257.A11   *       KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B SIGNAL NAME TRANSLATOR DF 120-157         
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DH1677.A11   *       KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B SIGNAL NAME TRANSLATOR DF 160-177         
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DHDIAG.CMD   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   DIAG. COMMAND RUN FILE                          
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DHKAA.A11    0.2     KL10B     N/A     N/A     DKYCA   DFXLK   N/A     YES   YES   KL10 EBOX TEST PART 1                           
+    SDC UNIFIED NUMBERING CODE: AH-7414B-DD                     
+
+DHKAB.A11    0.3     KL10B     N/A     N/A     DKYCA   DFXLK   N/A     YES   YES   KL10 EBOX TEST PART 2                           
+    SDC UNIFIED NUMBERING CODE: AH-7415C-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    18                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DHKBA.A11    0.4  #  KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B MBOX TEST PART 1                          
+    SDC UNIFIED NUMBERING CODE: AH-7416D-DD                     
+
+DHKBB.A11    0.2  #  KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 MEMORY SYSTEM DIAG                         
+    SDC UNIFIED NUMBERING CODE: AH-7417B-DD                     
+
+DHKBC.A11    0.1     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B PAGING LOGIC DIAGNOSTIC                   
+    SDC UNIFIED NUMBERING CODE: AH-7418A-DD                     
+
+DHKBD.A11    0.6     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B MBOX CHANNEL LOOP BACK TEST               
+    SDC UNIFIED NUMBERING CODE: AH-7419F-DD                     
+
+DHKBF.A11    0.3     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 MF20 PART 1 OF 2                           
+    SDC UNIFIED NUMBERING CODE: AH-F043C-DD                     
+
+DHKBF.HLP    *       KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   HELP FILE                                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DHKBG.A11    0.3     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 MF20 PART 2 OF 2                           
+    SDC UNIFIED NUMBERING CODE: AH-F045C-DD                     
+
+DHKBG.HLP    *       KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   HELP FILE                                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DHKBGX.A11   1.2     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   DHKBG TEST USING CACHE                          
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DHKCA.A11    0.1     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B METER BOARD DIAGNOSTIC                    
+    SDC UNIFIED NUMBERING CODE: AH-7420A-DD                     
+
+DHMCA.A11    1.2  #  KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B CACHE TEST PART 1                         
+    SDC UNIFIED NUMBERING CODE: AH-7421B-D1                     
+
+DHMCB.A11    0.2     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B CACHE TEST PART 2                         
+    SDC UNIFIED NUMBERING CODE: AH-7422B-DD                     
+
+DHQFA.A11    0.3     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   TRACON FOR KL10 MODEL B                         
+    SDC UNIFIED NUMBERING CODE: AH-7423C-DD                     
+
+DHYKF-YB     0.4     MEDIA     N/A     N/A     DHYKF   N/A     N/A     N/A   N/A   KL10 FUNCTIONAL DTE20 INTERFACE CUSP            
+    SDC UNIFIED NUMBERING CODE: AS-F309D-DD                     
+
+DIACON.HLP   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   DIACON HELP FILE                                
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DIAGA.RAM    126A    KL10A     N/A     N/A     N/A     DFXLK   N/A     YES   YES   MBOX DIAGNOSTIC MICROCODE                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DIAGB.RAM    156     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10B MBOX DIAGNOSTIC MICROCODE                 
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    19                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DIAMON.A10   0.17    KL10      N/A     DGZBA   DGYBA   DFXLK   DDXLA   YES   YES   PDP-10 DIAG. MONITOR (DDQDC)                    
+    SDC UNIFIED NUMBERING CODE: AH-7144O-DD                     
+
+DIAMON.EXE   0.17    SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DIAGNOSTIC MONITOR (DDQDC)                      
+    SDC UNIFIED NUMBERING CODE: AH-7144O-DD                     
+
+DIAMON.SAV   0.17    SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DIAGNOSTIC MONITOR (DDQDC)                      
+    SDC UNIFIED NUMBERING CODE: AH-7144O-DD                     
+
+DJEXA.A8     0.1     PDP8A     N/A     N/A     N/A     N/A     DDXLA   YES   NO    PDP8A DIAGNOSTIC                                
+    SDC UNIFIED NUMBERING CODE: AH-6643A-MA                     
+
+DJKKA.A8     0.2     PDP8A     N/A     N/A     N/A     N/A     DDXLA   YES   NO    PDP8A DIAGNOSTIC                                
+    SDC UNIFIED NUMBERING CODE: AH-6669B-MA                     
+
+DJMSA.A8     0.1     PDP8A     N/A     N/A     N/A     N/A     DDXLA   YES   NO    PDP8A DIAGNOSTIC                                
+    SDC UNIFIED NUMBERING CODE: AH-6708A-MA                     
+
+DJYAA-YB     0.22    MEDIA     N/A     DJZAA   DJYAA   N/A     N/A     N/A   N/A   KL10 FRONT END (11/40) CPU CUSP #1              
+    SDC UNIFIED NUMBERING CODE: AS-7462R-DD                     
+
+DJYAB-YB     0.20    MEDIA     N/A     N/A     DJYAB   N/A     N/A     N/A   N/A   KL10 FRONT END (11/40) CPU CUSP #2              
+    SDC UNIFIED NUMBERING CODE: AS-7463P-DD                     
+
+DJYAC-YB     0.15    MEDIA     N/A     N/A     DJYAC   N/A     N/A     N/A   N/A   2040 FRONT END DISK CONTROL CUSP #1             
+    SDC UNIFIED NUMBERING CODE: AS-7464M-DD                     
+
+DJYBA-YB     0.14    MEDIA     N/A     N/A     DJYBA   N/A     N/A     N/A   N/A   2040 FRONT END (11/40) EXERCISER CUSP #1        
+    SDC UNIFIED NUMBERING CODE: AS-7466L-DD                     
+
+DJZAA-UB     0.24    MEDIA     N/A     DJZAA   DJYAA   N/A     N/A     N/A   N/A   KL10 FRONT END (11/40) CPU                      
+    SDC UNIFIED NUMBERING CODE: AL-7467T-DD                     
+
+DJZAB-UB     0.15    MEDIA     N/A     DJZAB   N/A     N/A     N/A     N/A   N/A   KL10/80-FRONT END DISK CONTROL CUSP             
+    SDC UNIFIED NUMBERING CODE: AL-7468M-DD                     
+
+DKYCA-YB     0.3     MEDIA     N/A     N/A     DKYCA   N/A     N/A     N/A   N/A   KL10 MODEL B SUPPORT CUSP DISKETTE              
+    SDC UNIFIED NUMBERING CODE: AS-7469C-DD                     
+
+DS1017.A11   1.9     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   SIGNAL NAME TRANS FILE DIAG FUNCT 100-117       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DS1257.A11   1.9     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   SIGNAL NAME TRANS FILE DIAG FUNCT 120-157       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DS1677.A11   0.10    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   SIGNAL NAME TRANS FILE DIAG FUNCT 160-177       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+DSMOSM.A11   0.2     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   MF20 DIAG SIGNAL NAME FILE                      
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    20                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DTEMPN.BIN   *       DN20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   LOAD OPTION (DFDNA)                             
+    SDC UNIFIED NUMBERING CODE: AH-F102B-DD                     
+
+DXDAG.BIN    0.9     DA28F     N/A     N/A     N/A     N/A     DDXLA   YES   NO    INTERPROCESSOR BUFFER INTERFACE                 
+    SDC UNIFIED NUMBERING CODE: AH-7517I-DD                     
+
+DXDAH.BIN    0.9     DA28      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DA28-F-H INTERACTIVE (PDP11 SIDE)               
+    SDC UNIFIED NUMBERING CODE: AH-7520I-DD                     
+
+DXDAI.BIN    0.3     DA28F     N/A     N/A     N/A     N/A     DDXLA   YES   NO    BASIC TEST                                      
+    SDC UNIFIED NUMBERING CODE: AC-7522C-DD                     
+
+DXDAJ.BIN    0.3     DA28A     N/A     N/A     N/A     N/A     DDXLA   YES   NO    INTERACTION TEST                                
+    SDC UNIFIED NUMBERING CODE: AC-7525C-DD                     
+
+DXDAN.BIN    0.1     DA28-H    N/A     N/A     N/A     N/A     DDXLA   YES   NO    INTERACTIVE DIAG PDP-15 SIDE                    
+    SDC UNIFIED NUMBERING CODE: AH-7534A-DD                     
+
+DXDLC.BIN    0.3     DL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DL10 DIAGNOSTIC #3                              
+    SDC UNIFIED NUMBERING CODE: AH-7536C-DD                     
+
+DXDLJ.BIN    0.1     DL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    PDP11 SIDE OF THE DL10 MULTI PDP11 TEST         
+    SDC UNIFIED NUMBERING CODE: AH-E564A-DD                     
+
+DXDMB.BIN    0.1     DMA10     N/A     N/A     N/A     N/A     DDXLA   YES   NO    DMA10 MEMORY LINK TEST                          
+    SDC UNIFIED NUMBERING CODE: AH-7541A-DD                     
+
+DXDMC.BIN    0.2     DMA20     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMA10 MEMORY SHARING INTERFACE DIAG.            
+    SDC UNIFIED NUMBERING CODE: AH-F279B-DD                     
+
+DXDSC.BIN    0.1     DS11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DATAPHONE INTERFACE DIAG                        
+    SDC UNIFIED NUMBERING CODE: AH-7545A-DD                     
+
+DXDSD.BIN    0.1     DS11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DATA RELIABILITY TEST                           
+    SDC UNIFIED NUMBERING CODE: AH-7549A-DD                     
+
+DXDSF.BIN    0.1     DC71      N/A     N/A     N/A     N/A     DDXLA   YES   NO    8/I ECHO (PDP-8I                                
+    SDC UNIFIED NUMBERING CODE: AC-7551A-DD                     
+
+DXDXA.A8     0.1     DX10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    MICRO-DIAGNOSTIC PROGRAM                        
+    SDC UNIFIED NUMBERING CODE: UNKNOWN                         
+
+DXLPB.BIN    0.10    LP20      N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   LP20 DIAGNOSTIC                                 
+    SDC UNIFIED NUMBERING CODE: AH-7555H-DD                     
+
+DXLPRA.BIN   0.1     LPR20     N/A     N/A     N/A     N/A     DDXLA   YES   YES   LPR20 LINE PRINTER DIAGNOSTIC                   
+    SDC UNIFIED NUMBERING CODE: AH-S308A-DD                     
+
+DXMCA.ADX    0.7     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DX20-V100 MICRO-CODE                            
+    SDC UNIFIED NUMBERING CODE: AH-E183G-DD                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    21                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DXMCA.REL    0.2     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DX20-V100 MICRO-CODE                            
+    SDC UNIFIED NUMBERING CODE: AH-E183C-DD                     
+
+DXMCD.ADX    0.3     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DX20-V210 DISK SUBSYSTEM MICRO-CODE             
+    SDC UNIFIED NUMBERING CODE: AH-F769C-DD                     
+
+DXMCD.BIN    0.1     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DX20-V210 DISK SUBSYSTEM MICRO-CODE             
+    SDC UNIFIED NUMBERING CODE: AH-F769A-DD                     
+
+DXMCE.ADX    0.3     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DX20-V220 DISK SUBSYSTEM MICRO-CODE             
+    SDC UNIFIED NUMBERING CODE: AH-F910C-DD                     
+
+DXMCE.RMC    0.1     DX20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DX20-V220 DISK SUBSYSTEM MICRO-CODE             
+    SDC UNIFIED NUMBERING CODE: AH-F910A-DD                     
+
+DXMPA.A8     0.15    DX10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DX10 MICROCODE                                  
+    SDC UNIFIED NUMBERING CODE: AH-7558O-DD                     
+
+DXMPA.BIN    0.15    DX10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DX10 IO PROCESSOR MICRO-CODE                    
+    SDC UNIFIED NUMBERING CODE: AH-7558O-DD                     
+
+DXQLCO.LIB   0.17    DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEC/X11 PRODUCTS LIBRARY #2                     
+    SDC UNIFIED NUMBERING CODE: AH-8258O-MC                     
+
+DXQLDN.LIB   0.16    DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEC/X11 COMM. OPTION MODULE LIBRARY #1          
+    SDC UNIFIED NUMBERING CODE: AH-8261N-MC                     
+
+DXQLEI.LIB   0.11    DECX11    N/A     N/Q     N/A     N/A     DDXLA   YES   YES   DEC/X11 COMM. OPTION                            
+    SDC UNIFIED NUMBERING CODE: AH-8266I-MC                     
+
+DXQLMB.LIB   0.2     DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   11/70 SUBSYS EXERCISER LIBRARY                  
+    SDC UNIFIED NUMBERING CODE: AH-8294B-MC                     
+
+DZCDBB.BIN   0.2     CD11/20   N/A     N/A     DJYAB   N/A     DDXLA   YES   YES   CD11/CD20 CARD READER                           
+    SDC UNIFIED NUMBERING CODE: AH-0030B-MC                     
+
+DZCRA.BIN    0.2     CR11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   CR11 DIAGNOSTIC                                 
+    SDC UNIFIED NUMBERING CODE: AC-8412B-MC                     
+
+DZDHB.BIN    0.2     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DH11 MEMORY TEST                                
+    SDC UNIFIED NUMBERING CODE: AC-8448B-MC                     
+
+DZDHCB.BIN   0.2     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    RECEIVE AND TRANSMIT LOGIC TESTS                
+    SDC UNIFIED NUMBERING CODE: AC-8452B-MC                     
+
+DZDHD.BIN    0.3     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DH11 SPEED SELECTION LOGIC TEST                 
+    SDC UNIFIED NUMBERING CODE: AC-8456C-MC                     
+
+DZDHEB.BIN   0.2     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    CHARACTER LENGTH & DATA TEST                    
+    SDC UNIFIED NUMBERING CODE: AC-8460B-MC                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    22                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+DZDHFB.BIN   0.2     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    SINGLE LINE DATA TEST                           
+    SDC UNIFIED NUMBERING CODE: AC-8464B-MC                     
+
+DZDHGB.BIN   0.2     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DH11 MULTI LINE PARITY TEST                     
+    SDC UNIFIED NUMBERING CODE: AC-8468B-MC                     
+
+DZDHHB.BIN   0.2     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DH11 AUTO ECHO TEST                             
+    SDC UNIFIED NUMBERING CODE: AC-8472B-MC                     
+
+DZDHIC.BIN   0.3     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    BREAK & HALF DUPLEX TEST                        
+    SDC UNIFIED NUMBERING CODE: AH-8478C-MC                     
+
+DZDHJB.BIN   0.2     DH11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    DH11 ECHO TEST                                  
+    SDC UNIFIED NUMBERING CODE: AC-8480B-MC                     
+
+DZDLBB.BIN   0.2     DL11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    ON-LINE TEST                                    
+    SDC UNIFIED NUMBERING CODE: AC-8520B-MC                     
+
+DZDMOA.BIN   0.1     DMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMC11 OVERLAY FOR INTER PROC.TST                
+    SDC UNIFIED NUMBERING CODE: AH-A933A-MC                     
+
+DZDZAE.BIN   0.5     DZ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DZ11 8-LINE ASYNCH MUX TESTS                    
+    SDC UNIFIED NUMBERING CODE: AH-8783E-MC                     
+
+DZITAD.BIN   0.4     DMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DMC11 INTER PROC.TEST                           
+    SDC UNIFIED NUMBERING CODE: AH-8812D-MC                     
+
+DZKAQG.BIN   0.7     PDP11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   PDP11 POWER FAIL TEST                           
+    SDC UNIFIED NUMBERING CODE: AC-8814G-MC                     
+
+DZKGAB.BIN   0.2     KG11      N/A     N/A     N/A     N/A     DDXLA   YES   NO    CYCLIC REDUNDANCY TEST                          
+    SDC UNIFIED NUMBERING CODE: AH-8840B-MC                     
+
+DZLACD.BIN   0.4     DL11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   LA36 TERMINAL TEST (DL11)                       
+    SDC UNIFIED NUMBERING CODE: AH-8899D-MC                     
+
+DZLPKH.BIN   0.10    LP11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   LP11 DIAGNOSTIC                                 
+    SDC UNIFIED NUMBERING CODE: AH-8944H-MC                     
+
+DZQUXE.BIN   0.5     SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   CONFIGURATOR/LINKER                             
+    SDC UNIFIED NUMBERING CODE: AK-9090E-MC                     
+
+DZQUYC.BIN   0.3     SM.SYS    N/A     N/A     N/A     N/A     DDXLA   YES   YES   SMALL SYS. CONFIGURATOR LINKER                  
+    SDC UNIFIED NUMBERING CODE: AK-9091C-MC                     
+
+EBOXA.RAM    0.2     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   MICROCODE FILE FOR DGKAB                        
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+EBOXB.RAM    0.2     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   DIAGNOSTIC MICRO CODE FOR EBOX KL10B            
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    23                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+FKACA1.BIC   0.1     11/34     N/A     N/A     N/A     N/A     DDXLA   YES   YES   11/34 EIS INSTR. TESTS                          
+    SDC UNIFIED NUMBERING CODE: AH-0018A-MC                     
+
+FQABA0.BIN   0.1     11/40     N/A     DJZAB   DJYAA   N/A     DDXLA   YES   YES   MAIN FRONT END SYSTEM EXERCISER                 
+    SDC UNIFIED NUMBERING CODE: AH-S864A-DD                     
+
+FQACA0.BIN   0.1     11/40     N/A     N/A     N/A     N/A     DDXLA   YES   YES   11/40 AUXILIARY FRONT END                       
+    SDC UNIFIED NUMBERING CODE: N/A                             
+
+FQADA2.BIN   2.1     11/34     N/A     N/A     N/A     N/A     DDXLA   YES   YES   11/34 AUXILIARY FRONT END                       
+    SDC UNIFIED NUMBERING CODE: N/A                             
+
+HALT.BIN     *       DN20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   HALT OPTION (DFDNA)                             
+    SDC UNIFIED NUMBERING CODE: AH-F102B-DD                     
+
+KACPU.CMD    *       KA10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    DIAGNOSTIC MONITOR COMMAND LIST                 
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KICPU.CMD    *       KI10      N/A     N/A     N/A     DCXLA   N/A     NO    NO    DIAG MONITOR COMMAND LIST                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLAD10.HLP   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   NO    KLAD DIAG. PACK HELP FILE                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLAD10.SAV   0.3     KL10      N/A     N/A     N/A     DFXLK   N/A     YES   NO    KLAD DIAGNOSTIC PACK CREATOR                    
+    SDC UNIFIED NUMBERING CODE: AH-F601C-DD                     
+
+KLADBT.BIN   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KLAD-10 KLDCP BOOT                              
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLCPU.CMD    *       KL10      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   FUNCT COMMAND RUN FILE                          
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLDBLD.CMD   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KLAD-20 KLDCP BOOT TASK CMD FILE (DGQDA)        
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLDCP.BIN    *       KL10      N/A     DGZAA   DGYAA   DFXLK   N/A     YES   YES   KL10 DIAG. CONSOLE  (DGQDA)                     
+    SDC UNIFIED NUMBERING CODE: AH-7368Q-DD                     
+
+KLDCP.HLP    *       KL10      N/A     DGZAA   DGYAA   DFXLK   N/A     YES   YES   KLDCP HELP FILE (DGQDA)                         
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLDCPU.A11   0.17    KL10      N/A     DGZAA   DGYAA   DFXLK   N/A     YES   YES   KL10 DIAG CONSOLE UTILITY (DGQDA)               
+    SDC UNIFIED NUMBERING CODE: AH-7368Q-DD                     
+
+KLDDT.A10    0.12    SYSTEM    N/A     DGZBA   DGYBA   BOTH    DDXLA   YES   YES   PDP-10 DDT                                      
+    SDC UNIFIED NUMBERING CODE: AH-7139L-DD                     
+
+KLDDT.HLP    *       KL10      N/A     DGZBA   DGYBA   BOTH    DDXLA   YES   YES   PDP-10 DDT HELP FILE                            
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    24                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+KLDTBT.BIN   *       KL10      N/A     DGZAA   DGYAA   DFXLK   N/A     YES   YES   KLDCP DECTAPE BOOTSTRAP (DGQDA)                 
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLLD.CCL     *       KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   CCL FILE TO LOAD "DIAMON,SUBRTN, & KLDDT."      
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLPROC.CMD   *       KL10      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   DIAMON FUNCT RUN FILE                           
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLRPBT.OBJ   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   KLAD-20 KLDCP BOOT (DGQDA)                      
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLRXBT.BIN   .10     KL10      N/A     DGZAA   DGYAA   DFXLK   N/A     YES   YES   KLDCP FLOPPY BOOTSTRAP (DGQDA)                  
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLUSR.CMD    *       KL10      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   DIAMON USER FUNCTIONAL RUN FILE                 
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+KLX.RAM      275     KL10B     N/A     N/A     N/A     DFXLK   N/A     YES   YES   KL10 MICRO CODE - MODEL B                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+MAGMON.A10   0.16    KL10      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   PDP-10 MAGTAPE MONITOR ( DDQDE )                
+    SDC UNIFIED NUMBERING CODE: AH-7151N-DD                     
+
+MAGMON.SAV   0.13    SYSTEM    N/A     N/A     N/A     DFXLK   DDXLA   YES   YES   MAGTAPE LOADER ( DDQDE )                        
+    SDC UNIFIED NUMBERING CODE: AH-7151M-DD                     
+
+MAGTAP.SAV   0.5     SYSTEM    N/A     N/A     N/A     BOTH    DDXLA   YES   YES   DIAGNOSTIC MAGTAPE CREATOR (DDQDF)              
+    SDC UNIFIED NUMBERING CODE: AH-7155E-DD                     
+
+MD10DF.MEM   0.27    LIST      N/A     N/A     N/A     N/A     N/A     NO    NO    DIAGNOSTIC DEFICIENCIES REPORT (DDXXB)          
+    SDC UNIFIED NUMBERING CODE: AH-7297W-DD                     
+
+MEMCON.A11   0.7     KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   KL10 DIAGNOSTIC MEMORY UTILITY PROGRAM (DGQFB)  
+    SDC UNIFIED NUMBERING CODE: AH-F051G-DD                     
+
+MEMCON.HLP   *       KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   HELP FILE FOR MEMCON (DGQFB)                    
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+P1011.CMD    *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   NO    KLAD CREATION FILE-KL10 REV 11                  
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+RXDP.BIN     0.3     11/40     N/A     N/A     DJYAA   N/A     DDXLA   YES   YES   FLOPPY LOADER (DZQUJ)                           
+    SDC UNIFIED NUMBERING CODE:   AK-9070C-MC                   
+
+SCHED.HLP    0.42    KL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    PM SCHEDULING HELP FILE                         
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+SCHED.INP    0.42    KL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    SCHEDULING TABLE                                
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    25                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+SCHED.SAV    0.42    KL10      N/A     N/A     N/A     N/A     DDXLA   YES   NO    PM SCHEDULING PROGRAM                           
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+SUBKL.A10    0.1     SYSTEM    N/A     DGZBA   DGYBA   DFXLK   DDXLA   YES   YES   DECSYSTEM DIAGNOSTIC KL10 SUBROUTINE (DFQDA)    
+    SDC UNIFIED NUMBERING CODE: AH-F079A-DD                     
+
+SUBRTN.A10   0.14    SYSTEM    N/A     DGZBA   DGYBA   DFXLK   DDXLA   YES   YES   NON-RESIDENT SUBRTN PACKAGE (DDQDA)             
+    SDC UNIFIED NUMBERING CODE: AH-7135N-DD                     
+
+SUBRTN.SAV   0.14    SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   SUBRTN PACKAGE (DDQDA)                          
+    SDC UNIFIED NUMBERING CODE: AH-7135N-DD                     
+
+SUBUSR.A10   0.14    SYSTEM    N/A     N/A     N/A     DFXLK   DDXLA   YES   YES   DIAG. USER SUBRTN PROG (DDQDA)                  
+    SDC UNIFIED NUMBERING CODE: AH-7135N-DD                     
+
+SUBUSR.SAV   0.15    SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DIAG. USER SUBRTN PROG (DDQDA)                  
+    SDC UNIFIED NUMBERING CODE: AH-7135O-DD                     
+
+SWITCH.HLP   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   EXTERNAL MEMORY SWITCH HELP FILE                
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+TCDP.BIN     0.4     11/40     N/A     DJZAA   N/A     N/A     DDXLA   YES   YES   KL10 FRONT END (11/40)CPU (DZQUC)               
+    SDC UNIFIED NUMBERING CODE: AC-9051D-MC                     
+
+TGHA.EXE     0.1     MF20      N/A     N/A     N/A     N/A     DDXLA   YES   YES   MOS MEMORY ANALYZER (DFQDI>                     
+    SDC UNIFIED NUMBERING CODE: AH-F157A-DD                     
+
+TRACON.A11   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   UTILITY PROGRAM                                 
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+TRACON.HLP   *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   UTILITY PROGRAM                                 
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+U.RAM        231     KL10      N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   KL10 MICRO CODE  - MODEL A                      
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+UB.RAM       275     KL10B     N/A     DGZBA   DGYBA   DFXLK   N/A     YES   YES   KL10 MICRO CODE - MODEL B                       
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+UPD2.BIN     0.11    KL10      N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   XXDP UTILITY DIAG. (DZQUB)                      
+    SDC UNIFIED NUMBERING CODE: AK-9050I-MC                     
+
+WHEEL.SAV    103.    KL10      N/A     N/A     N/A     DFXLK   N/A     YES   NO    KLAD CREATION PRIVILEGE PROGRAM                 
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+WRMEM.CCL    *       KL10      N/A     N/A     N/A     DFXLK   N/A     YES   YES   AC MEMORY TEST                                  
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+X1.CCL       *       KL10      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   EXTER MEMORY CONFIG -1 WAY INTERLEAVE           
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    26                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+X2.CCL       *       KL10      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   EXTER MEMORY CONFIG-2 WAY INTERLEAVE            
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+X4.CCL       *       KL10      N/A     DGZBB   DGYBB   DFXLK   N/A     YES   YES   EXTER MEMORY CONFIG-4 WAY INTERLEAVE            
+    SDC UNIFIED NUMBERING CODE: NONE                            
+
+XQLAI0.LIB   0.11    SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   MONITOR MODULE LIBRARY                          
+    SDC UNIFIED NUMBERING CODE: AH-8249I-MC                     
+
+XQLFF0.LIB   0.6     DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEC/X11 LAB.+INDUST. OPTIONS LIB.#1             
+    SDC UNIFIED NUMBERING CODE: AC-8268F-MC                     
+
+XQLGJ0.LIB   0.12    DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEC/X11 LAB.+INDUST. OPTIONS LIB.#2             
+    SDC UNIFIED NUMBERING CODE: AH-8273J-MC                     
+
+XQLJD0.LIB   0.4     DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEC/X11 11/70 MONITOR LIB.                      
+    SDC UNIFIED NUMBERING CODE: AC-8284D-MC                     
+
+XQLKB0.LIB   0.2     SYSTEM    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DECX11 MODULE LIBRARY                           
+    SDC UNIFIED NUMBERING CODE: AH-8288B-MC                     
+
+XQLLC0.LIB   0.3     DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   NEW OPTIONS LIB.#3                              
+    SDC UNIFIED NUMBERING CODE: AH-B130C-MC                     
+
+XQLNB0.LIB   0.2     DECX11    N/A     N/A     N/A     N/A     DDXLA   YES   YES   DEC/X11 DECNET LIBRARY                          
+    SDC UNIFIED NUMBERING CODE: AH-8299B-MC                     
+
+XTECO.BIN    *       KL10      N/A     DGZAA   DGYAA   DFXLK   N/A     YES   YES   XXDP UTILITY DIAGNOSTIC.                        
+    SDC UNIFIED NUMBERING CODE: AK-9063E-MC                     
+
+YPTCB0.BIN   0.2     11/40     N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   11-DECTAPE FORMATTER                            
+    SDC UNIFIED NUMBERING CODE: UNKNOWN                         
+
+ZBMDJ0.BIC   0.12    BM873Y    N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   BM873 ROM                                       
+    SDC UNIFIED NUMBERING CODE: AH-8384J-MC                     
+
+ZDHKD0.BIC   0.4     DM11      N/A     N/A     DJYAB   N/A     DDXLA   YES   YES   DM11-BB MODEM                                   
+    SDC UNIFIED NUMBERING CODE: AH-8486D-MC                     
+
+ZDPFB0.BIN   0.2     DUP11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   ITEP OVERLAY FOR DUP-11/DA                      
+    SDC UNIFIED NUMBERING CODE: AC-8592B-MC                     
+
+ZDZBB0.BIN   0.2     DZ11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   DZ11 OVERLAY FOR ITP                            
+    SDC UNIFIED NUMBERING CODE: AC-8785B-MC                     
+
+ZKCAA1.BIC   0.1     KMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   KMC11 CPY MICRO-DIAG.                           
+    SDC UNIFIED NUMBERING CODE: AH-A899A-MC                     
+
+ZKCCA0.BIC   0.1     KMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   BASIC W/R + MICRO-PROC. TESTS                   
+    SDC UNIFIED NUMBERING CODE: AH-A905A-MC                     
+
+
+                                                                                                                                    MAINDEC INDEX (DECSYSTEM10/20)     RUN ON 10-JUN-82 AT 09:43:10          PAGE    27                                                 
+SORT FIELD                                                                                                                          
+MAINDEC 
+MAINDEC     VERSION  DEVICE    DTA10   DTA11   FLOPPY   CPU    PERIP  KLAD10 KLAD20            COMMENTS                             
+-------     -------  ------    -----   -----   ------   ---    -----  ------ ------            --------                                                                                                                                                                 
+
+
+ZKCDA0.BIC   0.1     KMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   MAIN MEM., JUMP, CRAM TESTS ON MICRO PRO        
+    SDC UNIFIED NUMBERING CODE: AH-A908A-MC                     
+
+ZKCEA0.BIC   0.1     DDCMP     N/A     N/A     N/A     N/A     DDXLA   YES   YES   DDCMP MODE LINE UNIT TESTS                      
+    SDC UNIFIED NUMBERING CODE: AH-A911A-MC                     
+
+ZKCFA0.BIC   0.1     KMC11     N/A     N/A     N/A     N/A     DDXLA   YES   YES   BIT STUFF MODE LINE UNIT TESTS                  
+    SDC UNIFIED NUMBERING CODE: AH-A914A-MC                     
+
+ZRXAE0.BIC   0.5     RX11      N/A     N/A     DJYAB   N/A     DDXLA   YES   YES   RX11 FLOPPY RELIABILITY                         
+    SDC UNIFIED NUMBERING CODE: AH-9336E-MC                     
+
+ZTCBD0.BIN   0.4     TC11      N/A     DJZAA   DJYAA   N/A     DDXLA   YES   YES   TC11 DECTAPE                                    
+    SDC UNIFIED NUMBERING CODE: AH-9378D-MC                     
+
+ZTCCA0.BIC   0.1     TC11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   TC3 BASIC FUNCTIONS                             
+    SDC UNIFIED NUMBERING CODE: N/A                             
+
+ZTCDC0.BIC   0.3     TC11      N/A     N/A     N/A     N/A     DDXLA   YES   YES   TC4 READ & WRITE                                
+    SDC UNIFIED NUMBERING CODE: N/A                             
+
+ZTCED0.BIC   0.4     TC11/TU   N/A     N/A     N/A     N/A     DDXLA   YES   YES   TC5-TC11 TEST                                   
+    SDC UNIFIED NUMBERING CODE: N/A                             
+
+
+                                                                                                                                    

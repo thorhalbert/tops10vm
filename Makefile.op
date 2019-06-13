@@ -1,0 +1,17 @@
+CFLAGS=-ggdb
+
+OPSRC = $(wildcard *.c)
+OPOBJ=$(OPSRC:.c=.o)
+
+all: opbag.a
+
+initops.o: initops.c initops.inc
+
+initops.inc: op_*.c
+	grep -h ^INITBOP op_*.c >initops.inc
+	grep -h ^INITOP op_*.c >>initops.inc
+
+opbag.a: initops.o ${OPOBJ}
+	rm -f opbag.a
+	ar cq opbag.a initops.o ${OPOBJ}
+	ranlib opbag.a

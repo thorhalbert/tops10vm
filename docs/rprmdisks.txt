@@ -1,0 +1,52 @@
+
+   type         #sectors/       #surfaces/      #cylinders/
+                 surface         cylinder        drive
+
+   RM02/3       32              5               823             =67MB
+   RP04/5       22              19              411             =88MB
+   RM80         31              14              559             =124MB
+   RP06         22              19              815             =176MB
+   RM05         32              19              823             =256MB
+   RP07         50              32              630             =516MB
+
+#define RM03_DTYPE      0
+#define RM03_SECT       32
+#define RM03_SURF       5
+#define RM03_CYL        823
+#define RM03_DEV        020024
+#define RM03_SIZE       (RM03_SECT * RM03_SURF * RM03_CYL * RP_NUMWD)
+
+#define RP04_DTYPE      1
+#define RP04_SECT       22
+#define RP04_SURF       19
+#define RP04_CYL        411
+#define RP04_DEV        020020
+#define RP04_SIZE       (RP04_SECT * RP04_SURF * RP04_CYL * RP_NUMWD)
+
+#define RM80_DTYPE      2
+#define RM80_SECT       31
+#define RM80_SURF       14
+#define RM80_CYL        559
+#define RM80_DEV        020026
+#define RM80_SIZE       (RM80_SECT * RM80_SURF * RM80_CYL * RP_NUMWD)
+
+#define RP06_DTYPE      3
+#define RP06_SECT       22
+#define RP06_SURF       19
+#define RP06_CYL        815
+#define RP06_DEV        020022
+#define RP06_SIZE       (RP06_SECT * RP06_SURF * RP06_CYL * RP_NUMWD)
+
+#define RM05_DTYPE      4
+#define RM05_SECT       32
+#define RM05_SURF       19
+#define RM05_CYL        823
+#define RM05_DEV        020027
+#define RM05_SIZE       (RM05_SECT * RM05_SURF * RM05_CYL * RP_NUMWD)
+
+#define RP07_DTYPE      5
+#define RP07_SECT       50
+#define RP07_SURF       32
+#define RP07_CYL        630
+#define RP07_DEV        020042
+#define RP07_SIZE       (RP07_SECT * RP07_SURF * RP07_CYL * RP_NUMWD)

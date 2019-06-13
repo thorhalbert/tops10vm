@@ -1,0 +1,22 @@
+// Begin of ECA Rotate Test 1
+
+	SEARCH /usr/local/share/eca/proc.tab
+	SEARCH /usr/local/share/eca/uuo.tab
+//	SEARCH /usr/local/share/eca/monsym.tab
+//	SEARCH /usr/local/share/eca/uuosym.tab
+
+//101100111000111100
+//  5  4  7  0  7  4
+
+: start
+	- movei 1, 547074
+	- movei 2, 333333
+: loop
+	- lights 1,
+	- jfcl 
+	- lights 2,
+	- jfcl 
+	- lshc 1, 1
+	- JRST loop
+
+// End
