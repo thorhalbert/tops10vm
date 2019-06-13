@@ -1,7 +1,7 @@
 # tops10vm
 Abandoned PDP-10/TOPS-10 Emulator
 
-In the early 2000's I started on a PDP-10 emulator, but somewhere in this time, the excellent SIMH and KLH-10 emulators appeared and kind of mooted my efforts.
+In the early 2000's, after the TOPS-10 and 20 distribution tape images became available (trailing-edge), I started on a PDP-10 emulator, but somewhere in this time, the excellent SIMH and KLH-10 emulators appeared and kind of mooted my efforts.
 
 So, then I thought to build an actual TOPS-10 emulator.   Building encode/decode logic for 36 bit values was way too tedious with the amount of time I had.
 
